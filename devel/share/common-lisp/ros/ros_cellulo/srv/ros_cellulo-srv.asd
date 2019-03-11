@@ -1,0 +1,1 @@
+/home/tprobotics/Documents/PROJECTS/catkin_ws/devel/.private/ros_cellulo/share/common-lisp/ros/ros_cellulo/srv/ros_cellulo-srv.asd

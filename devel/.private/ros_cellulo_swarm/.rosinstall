@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/tprobotics/Documents/PROJECTS/catkin_ws/devel/.private/ros_cellulo_swarm/setup.sh

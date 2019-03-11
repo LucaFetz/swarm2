@@ -1,0 +1,7 @@
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_interaction/ros_cellulo_interaction_node.cpp:[m[K In member function ‘[01m[Kvoid FollowLeader::followingMyLeader()[m[K’:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_interaction/ros_cellulo_interaction_node.cpp:104:39:[m[K [01;31m[Kerror: [m[Kscalar object ‘[01m[Kvel[m[K’ requires one element in initializer
+         double vel = {velx, vely, velz};
+[01;32m[K                                       ^[m[K
+make[2]: *** [CMakeFiles/ros_cellulo_interaction.dir/src/ros_cellulo_interaction/ros_cellulo_interaction_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/ros_cellulo_interaction.dir/all] Error 2
+make: *** [all] Error 2

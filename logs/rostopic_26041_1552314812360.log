@@ -1,0 +1,111 @@
+[rospy.client][INFO] 2019-03-11 15:33:32,405: init_node, name[/rostopic_26041_1552314812360], pid[26041]
+[xmlrpc][INFO] 2019-03-11 15:33:32,406: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-03-11 15:33:32,406: Started XML-RPC server [http://chiliPC:44479/]
+[rospy.init][INFO] 2019-03-11 15:33:32,407: ROS Slave URI: [http://chiliPC:44479/]
+[rospy.impl.masterslave][INFO] 2019-03-11 15:33:32,407: _ready: http://chiliPC:44479/
+[xmlrpc][INFO] 2019-03-11 15:33:32,407: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-03-11 15:33:32,407: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-03-11 15:33:32,507: registered with master
+[rospy.rosout][INFO] 2019-03-11 15:33:32,507: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-03-11 15:33:32,510: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-03-11 15:33:32,513: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-03-11 15:33:32,722: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] adding connection to [http://chiliPC:45513/], count 0
+[rospy.internal][INFO] 2019-03-11 15:33:32,773: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][WARNING] 2019-03-11 15:35:37,388: Unknown error initiating TCP/IP socket to chiliPC:53759 (http://chiliPC:45513/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2019-03-11 15:35:37,388: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] removing connection to http://chiliPC:45513/
+[rospy.internal][INFO] 2019-03-11 15:36:38,082: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] adding connection to [http://chiliPC:40831/], count 0
+[rospy.internal][WARNING] 2019-03-11 15:43:28,032: Unknown error initiating TCP/IP socket to chiliPC:43001 (http://chiliPC:40831/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2019-03-11 15:43:28,032: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] removing connection to http://chiliPC:40831/
+[rospy.internal][INFO] 2019-03-11 15:43:51,973: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] adding connection to [http://chiliPC:46037/], count 0
+[rospy.internal][WARNING] 2019-03-11 15:44:28,770: Unknown error initiating TCP/IP socket to chiliPC:44267 (http://chiliPC:46037/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2019-03-11 15:44:28,771: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] removing connection to http://chiliPC:46037/
+[rospy.internal][INFO] 2019-03-11 15:44:41,912: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] adding connection to [http://chiliPC:40161/], count 0
+[rospy.internal][WARNING] 2019-03-11 15:59:56,682: Unknown error initiating TCP/IP socket to chiliPC:45209 (http://chiliPC:40161/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2019-03-11 15:59:56,682: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] removing connection to http://chiliPC:40161/
+[rospy.internal][INFO] 2019-03-11 15:59:56,800: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] adding connection to [http://chiliPC:40403/], count 0
+[rospy.internal][WARNING] 2019-03-11 16:03:11,730: Unknown error initiating TCP/IP socket to chiliPC:32777 (http://chiliPC:40403/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2019-03-11 16:03:11,730: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] removing connection to http://chiliPC:40403/
+[rospy.internal][INFO] 2019-03-11 16:03:15,214: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] adding connection to [http://chiliPC:46129/], count 0
+[rospy.internal][WARNING] 2019-03-11 16:05:19,675: Unknown error initiating TCP/IP socket to chiliPC:57781 (http://chiliPC:46129/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2019-03-11 16:05:19,676: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] removing connection to http://chiliPC:46129/
+[rospy.internal][INFO] 2019-03-11 16:19:26,923: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] adding connection to [http://chiliPC:38061/], count 0
+[rospy.internal][WARNING] 2019-03-11 16:21:36,053: Unknown error initiating TCP/IP socket to chiliPC:58931 (http://chiliPC:38061/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2019-03-11 16:21:36,053: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] removing connection to http://chiliPC:38061/
+[rospy.internal][INFO] 2019-03-11 16:22:47,533: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] adding connection to [http://chiliPC:38351/], count 0
+[rospy.internal][WARNING] 2019-03-11 16:31:57,446: Unknown error initiating TCP/IP socket to chiliPC:33611 (http://chiliPC:38351/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2019-03-11 16:31:57,447: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] removing connection to http://chiliPC:38351/
+[rospy.internal][INFO] 2019-03-11 16:32:00,536: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] adding connection to [http://chiliPC:34731/], count 0
+[rospy.internal][WARNING] 2019-03-11 16:33:05,387: Unknown error initiating TCP/IP socket to chiliPC:51975 (http://chiliPC:34731/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2019-03-11 16:33:05,388: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] removing connection to http://chiliPC:34731/

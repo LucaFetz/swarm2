@@ -1,0 +1,1 @@
+/home/tprobotics/Documents/PROJECTS/catkin_ws/devel/.private/ros_cellulo/share/roseus/ros/ros_cellulo/msg/cellulo_coord.l

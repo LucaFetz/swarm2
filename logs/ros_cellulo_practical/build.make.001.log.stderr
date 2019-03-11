@@ -1,0 +1,10 @@
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_interaction/ros_cellulo_leader_node.cpp:[m[K In member function ‘[01m[Kvoid LeaderSelection::topicCallback_getTouchKeys(const cellulo_touch_key&)[m[K’:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_interaction/ros_cellulo_leader_node.cpp:65:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _header_type {aka const struct std_msgs::Header_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KframeId[m[K’
+             LeaderPublisher.publish(message.header.frameId);
+[01;32m[K                                                    ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_interaction/ros_cellulo_leader_node.cpp:69:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _header_type {aka const struct std_msgs::Header_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KframeId[m[K’
+                 if (message.header.frameId==present_robots[i+1])
+[01;32m[K                                    ^[m[K
+make[2]: *** [CMakeFiles/ros_cellulo_leader.dir/src/ros_cellulo_interaction/ros_cellulo_leader_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/ros_cellulo_leader.dir/all] Error 2
+make: *** [all] Error 2

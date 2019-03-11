@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target ros_cellulo_interaction[0m
+[ 16%] Built target ros_cellulo_aggregation_core
+[ 16%] Built target ros_cellulo_coverage_core
+[ 33%] Built target ros_cellulo_leader
+[ 41%] [32mBuilding CXX object CMakeFiles/ros_cellulo_interaction.dir/src/ros_cellulo_interaction/ros_cellulo_interaction_node.cpp.o[0m
+[ 66%] Built target ros_cellulo_coverage
+[ 91%] Built target ros_cellulo_aggregation
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_interaction/ros_cellulo_interaction_node.cpp:[m[K In member function ‘[01m[Kvoid FollowLeader::followingMyLeader()[m[K’:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_interaction/ros_cellulo_interaction_node.cpp:104:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kvel[m[K’ set but not used [-Wunused-but-set-variable]
+         double vel[3];
+[01;32m[K                ^[m[K
+[100%] [32m[1mLinking CXX executable /home/tprobotics/Documents/PROJECTS/catkin_ws/devel/.private/ros_cellulo_practical/lib/ros_cellulo_practical/ros_cellulo_interaction[0m
+[100%] Built target ros_cellulo_interaction

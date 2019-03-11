@@ -1,0 +1,8 @@
+prefix=/home/tprobotics/Documents/PROJECTS/catkin_ws/install
+
+Name: ros_cellulo
+Description: Description of ros_cellulo
+Version: 0.1.0
+Cflags: -I/home/tprobotics/Documents/PROJECTS/catkin_ws/install/include
+Libs: -L/home/tprobotics/Documents/PROJECTS/catkin_ws/install/lib 
+Requires: message_runtime sensor_msgs geometry_msgs std_msgs nav_msgs ros_cellulo_msgs tf2_ros visualization_msgs

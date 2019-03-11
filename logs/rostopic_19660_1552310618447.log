@@ -1,0 +1,18 @@
+[rospy.client][INFO] 2019-03-11 14:23:38,488: init_node, name[/rostopic_19660_1552310618447], pid[19660]
+[xmlrpc][INFO] 2019-03-11 14:23:38,488: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-03-11 14:23:38,489: Started XML-RPC server [http://chiliPC:38417/]
+[rospy.init][INFO] 2019-03-11 14:23:38,490: ROS Slave URI: [http://chiliPC:38417/]
+[rospy.impl.masterslave][INFO] 2019-03-11 14:23:38,490: _ready: http://chiliPC:38417/
+[rospy.registration][INFO] 2019-03-11 14:23:38,491: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-03-11 14:23:38,491: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-03-11 14:23:38,590: registered with master
+[rospy.rosout][INFO] 2019-03-11 14:23:38,591: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-03-11 14:23:38,594: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-03-11 14:23:38,596: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-03-11 14:23:38,657: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] adding connection to [http://chiliPC:37255/], count 0
+[rospy.internal][INFO] 2019-03-11 14:23:38,837: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2019-03-11 14:54:29,079: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-03-11 14:54:29,084: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-03-11 14:54:29,085: topic[/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] removing connection to http://chiliPC:37255/
+[rospy.impl.masterslave][INFO] 2019-03-11 14:54:29,085: signal-2
+[rospy.core][INFO] 2019-03-11 14:54:29,201: signal_shutdown [atexit]

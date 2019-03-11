@@ -1,0 +1,11 @@
+[rospy.client][INFO] 2019-03-11 13:55:49,513: init_node, name[/rostopic_17132_1552308949479], pid[17132]
+[xmlrpc][INFO] 2019-03-11 13:55:49,514: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-03-11 13:55:49,514: Started XML-RPC server [http://chiliPC:34751/]
+[rospy.init][INFO] 2019-03-11 13:55:49,514: ROS Slave URI: [http://chiliPC:34751/]
+[rospy.impl.masterslave][INFO] 2019-03-11 13:55:49,515: _ready: http://chiliPC:34751/
+[rospy.registration][INFO] 2019-03-11 13:55:49,515: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-03-11 13:55:49,515: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-03-11 13:55:49,615: registered with master
+[rospy.core][INFO] 2019-03-11 13:58:19,891: signal_shutdown [signal-2]
+[rospy.impl.masterslave][INFO] 2019-03-11 13:58:19,896: signal-2
+[rospy.core][INFO] 2019-03-11 13:58:20,012: signal_shutdown [atexit]

@@ -1,0 +1,13 @@
+[rospy.client][INFO] 2019-03-11 13:47:22,036: init_node, name[/rostopic_17033_1552308441985], pid[17033]
+[xmlrpc][INFO] 2019-03-11 13:47:22,037: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-03-11 13:47:22,037: Started XML-RPC server [http://chiliPC:35207/]
+[rospy.init][INFO] 2019-03-11 13:47:22,038: ROS Slave URI: [http://chiliPC:35207/]
+[rospy.impl.masterslave][INFO] 2019-03-11 13:47:22,038: _ready: http://chiliPC:35207/
+[rospy.registration][INFO] 2019-03-11 13:47:22,038: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-03-11 13:47:22,038: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-03-11 13:47:22,138: registered with master
+[rospy.internal][INFO] 2019-03-11 13:47:22,389: topic[/cellulo_node_00_06_66_D2_CF_7B/setGoalVelocity] adding connection to [/cellulo_node_00_06_66_D2_CF_7B], count 0
+[rospy.core][INFO] 2019-03-11 13:47:59,879: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-03-11 13:47:59,884: topic[/cellulo_node_00_06_66_D2_CF_7B/setGoalVelocity] removing connection to /cellulo_node_00_06_66_D2_CF_7B
+[rospy.impl.masterslave][INFO] 2019-03-11 13:47:59,885: signal-2
+[rospy.core][INFO] 2019-03-11 13:48:00,049: signal_shutdown [atexit]

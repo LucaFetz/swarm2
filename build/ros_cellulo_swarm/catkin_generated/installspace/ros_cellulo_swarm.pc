@@ -1,0 +1,8 @@
+prefix=/home/tprobotics/Documents/PROJECTS/catkin_ws/install
+
+Name: ros_cellulo_swarm
+Description: Description of ros_cellulo_swarm
+Version: 0.1.0
+Cflags: -I/home/tprobotics/Documents/PROJECTS/catkin_ws/install/include -I/home/tprobotics/Documents/LIBS/cellulo-qml-plugin/src/robot/ -I/home/tprobotics/Documents/LIBS/cellulo-qml-plugin/include/
+Libs: -L/home/tprobotics/Documents/PROJECTS/catkin_ws/install/lib 
+Requires: message_runtime sensor_msgs geometry_msgs std_msgs nav_msgs tf2_ros visualization_msgs

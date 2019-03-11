@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall  -shared -Wl,-soname,libros_cellulo_aggregation_core.so -o /home/tprobotics/Documents/PROJECTS/catkin_ws/devel/.private/ros_cellulo_practical/lib/libros_cellulo_aggregation_core.so  

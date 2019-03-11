@@ -1,0 +1,1 @@
+/home/tprobotics/Documents/PROJECTS/catkin_ws/devel/.private/ros_cellulo/share/gennodejs/ros/ros_cellulo/msg/cellulo_kidnapped_msg.js

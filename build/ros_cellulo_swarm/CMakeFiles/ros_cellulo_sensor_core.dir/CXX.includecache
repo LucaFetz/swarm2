@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tprobotics/Documents/PROJECTS/catkin_ws/build/ros_cellulo_swarm/ros_cellulo_sensor_core_autogen/mocs_compilation.cpp
+
