@@ -1,0 +1,160 @@
+Failure at 1552923481.863944122
+Exception thrown:"00_06_66_E7_8A_44" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552923481.864038943
+Exception thrown:"00_06_66_E7_8A_44" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552923482.622605287
+Exception thrown:"00_06_66_E7_8A_44" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552923483.622572404
+Exception thrown:"00_06_66_E7_8A_44" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552923484.622575971
+Exception thrown:"00_06_66_E7_8A_44" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552923485.622533332
+Exception thrown:"00_06_66_E7_8A_44" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552923486.622508125
+Exception thrown:"00_06_66_E7_8A_44" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552923487.622534190
+Exception thrown:"00_06_66_E7_8A_44" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552923488.622566007
+Exception thrown:"00_06_66_E7_8A_44" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552923489.622495491
+Exception thrown:"00_06_66_E7_8A_44" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552923490.622588401
+Exception thrown:"00_06_66_E7_8A_44" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552923491.622538815
+Exception thrown:"00_06_66_E7_8A_44" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552923492.622554110
+Exception thrown:"00_06_66_E7_8A_44" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+Frame 00_06_66_E7_8E_BD exists with parent paper_world.
+
+Failure at 1552923493.622503203
+Exception thrown:"00_06_66_E7_8A_44" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+Frame 00_06_66_E7_8E_BD exists with parent paper_world.
+
+Failure at 1552923494.622552604
+Exception thrown:"00_06_66_E7_8A_44" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+Frame 00_06_66_E7_8E_BD exists with parent paper_world.
+Frame 00_06_66_74_41_1E exists with parent paper_world.
+
+Failure at 1552923495.622535876
+Exception thrown:"00_06_66_E7_8A_44" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+Frame 00_06_66_E7_8E_BD exists with parent paper_world.
+Frame 00_06_66_74_41_1E exists with parent paper_world.
+Frame 00_06_66_E7_8E_58 exists with parent paper_world.
+
+Failure at 1552923496.622483556
+Exception thrown:"00_06_66_E7_8A_44" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+Frame 00_06_66_E7_8E_BD exists with parent paper_world.
+Frame 00_06_66_74_41_1E exists with parent paper_world.
+Frame 00_06_66_E7_8E_58 exists with parent paper_world.
+
+At time 1552923497.200
+- Translation: [124.323, 338.933, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, 0.887, 0.461]
+            in RPY (radian) [0.000, -0.000, 2.183]
+            in RPY (degree) [0.000, -0.000, 125.050]
+At time 1552923498.234
+- Translation: [124.318, 338.938, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, 0.887, 0.461]
+            in RPY (radian) [0.000, -0.000, 2.183]
+            in RPY (degree) [0.000, -0.000, 125.100]
+At time 1552923499.389
+- Translation: [124.323, 338.948, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, 0.886, 0.463]
+            in RPY (radian) [0.000, -0.000, 2.179]
+            in RPY (degree) [0.000, -0.000, 124.820]
+At time 1552923500.281
+- Translation: [124.323, 338.933, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, 0.888, 0.461]
+            in RPY (radian) [0.000, -0.000, 2.184]
+            in RPY (degree) [0.000, -0.000, 125.130]
+At time 1552923501.285
+- Translation: [124.333, 338.933, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, 0.887, 0.461]
+            in RPY (radian) [0.000, -0.000, 2.183]
+            in RPY (degree) [0.000, -0.000, 125.100]
+At time 1552923502.337
+- Translation: [124.333, 338.933, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, 0.887, 0.461]
+            in RPY (radian) [0.000, -0.000, 2.183]
+            in RPY (degree) [0.000, -0.000, 125.050]
+At time 1552923503.350
+- Translation: [124.338, 338.948, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, 0.886, 0.463]
+            in RPY (radian) [0.000, -0.000, 2.179]
+            in RPY (degree) [0.000, -0.000, 124.820]
+At time 1552923504.357
+- Translation: [124.328, 338.938, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, 0.887, 0.461]
+            in RPY (radian) [0.000, -0.000, 2.183]
+            in RPY (degree) [0.000, -0.000, 125.050]
+At time 1552923505.372
+- Translation: [124.338, 338.943, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, 0.887, 0.461]
+            in RPY (radian) [0.000, -0.000, 2.183]
+            in RPY (degree) [0.000, -0.000, 125.100]
+At time 1552923506.393
+- Translation: [124.323, 338.933, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, 0.888, 0.461]
+            in RPY (radian) [0.000, -0.000, 2.184]
+            in RPY (degree) [0.000, -0.000, 125.130]
+At time 1552923507.407
+- Translation: [124.323, 338.938, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, 0.888, 0.460]
+            in RPY (radian) [0.000, -0.000, 2.186]
+            in RPY (degree) [0.000, -0.000, 125.250]
+At time 1552923508.454
+- Translation: [124.333, 338.933, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, 0.887, 0.462]
+            in RPY (radian) [0.000, -0.000, 2.182]
+            in RPY (degree) [0.000, -0.000, 125.010]
+At time 1552923509.455
+- Translation: [124.333, 338.938, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, 0.887, 0.462]
+            in RPY (radian) [0.000, -0.000, 2.181]
+            in RPY (degree) [0.000, -0.000, 124.990]

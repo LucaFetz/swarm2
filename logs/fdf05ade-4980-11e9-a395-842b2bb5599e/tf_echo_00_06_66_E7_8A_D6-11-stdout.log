@@ -1,0 +1,235 @@
+Failure at 1552915403.116644141
+Exception thrown:"00_06_66_E7_8A_D6" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552915403.116819483
+Exception thrown:"00_06_66_E7_8A_D6" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552915404.048384694
+Exception thrown:"00_06_66_E7_8A_D6" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552915405.048387731
+Exception thrown:"00_06_66_E7_8A_D6" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552915406.048383356
+Exception thrown:"00_06_66_E7_8A_D6" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552915407.048392501
+Exception thrown:"00_06_66_E7_8A_D6" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552915408.048406374
+Exception thrown:"00_06_66_E7_8A_D6" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552915409.048393803
+Exception thrown:"00_06_66_E7_8A_D6" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552915410.048393759
+Exception thrown:"00_06_66_E7_8A_D6" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552915411.048393361
+Exception thrown:"00_06_66_E7_8A_D6" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552915412.048380802
+Exception thrown:"00_06_66_E7_8A_D6" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+Failure at 1552915413.048390900
+Exception thrown:"00_06_66_E7_8A_D6" passed to lookupTransform argument source_frame does not exist. 
+The current list of frames is:
+Frame paper_world exists with parent base_footprint.
+
+At time 1552915413.924
+- Translation: [96.545, 357.124, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.644, 0.765]
+            in RPY (radian) [0.000, -0.000, -1.399]
+            in RPY (degree) [0.000, -0.000, -80.160]
+At time 1552915414.924
+- Translation: [97.922, 356.779, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.632, 0.775]
+            in RPY (radian) [0.000, -0.000, -1.369]
+            in RPY (degree) [0.000, -0.000, -78.410]
+At time 1552915415.997
+- Translation: [93.533, 358.424, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.644, 0.765]
+            in RPY (radian) [0.000, -0.000, -1.399]
+            in RPY (degree) [0.000, -0.000, -80.150]
+At time 1552915416.973
+- Translation: [97.983, 357.383, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.634, 0.773]
+            in RPY (radian) [0.000, -0.000, -1.375]
+            in RPY (degree) [0.000, -0.000, -78.760]
+At time 1552915417.958
+- Translation: [99.009, 356.174, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.648, 0.762]
+            in RPY (radian) [0.000, -0.000, -1.409]
+            in RPY (degree) [0.000, -0.000, -80.720]
+At time 1552915418.945
+- Translation: [96.124, 356.819, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.624, 0.782]
+            in RPY (radian) [0.000, -0.000, -1.347]
+            in RPY (degree) [0.000, -0.000, -77.200]
+At time 1552915419.915
+- Translation: [92.563, 354.076, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.620, 0.784]
+            in RPY (radian) [0.000, -0.000, -1.338]
+            in RPY (degree) [0.000, -0.000, -76.660]
+At time 1552915421.022
+- Translation: [71.547, 285.892, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.658, 0.753]
+            in RPY (radian) [0.000, -0.000, -1.438]
+            in RPY (degree) [0.000, -0.000, -82.370]
+At time 1552915422.011
+- Translation: [67.661, 283.693, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.640, 0.768]
+            in RPY (radian) [0.000, -0.000, -1.390]
+            in RPY (degree) [0.000, -0.000, -79.650]
+At time 1552915422.993
+- Translation: [64.084, 282.285, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.636, 0.772]
+            in RPY (radian) [0.000, -0.000, -1.378]
+            in RPY (degree) [0.000, -0.000, -78.970]
+At time 1552915423.968
+- Translation: [61.844, 280.853, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.650, 0.760]
+            in RPY (radian) [0.000, -0.000, -1.416]
+            in RPY (degree) [0.000, -0.000, -81.140]
+At time 1552915424.954
+- Translation: [59.781, 280.243, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.630, 0.777]
+            in RPY (radian) [0.000, -0.000, -1.362]
+            in RPY (degree) [0.000, -0.000, -78.040]
+At time 1552915425.909
+- Translation: [59.604, 280.091, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.633, 0.774]
+            in RPY (radian) [0.000, -0.000, -1.370]
+            in RPY (degree) [0.000, -0.000, -78.520]
+At time 1552915426.988
+- Translation: [59.507, 279.949, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.638, 0.770]
+            in RPY (radian) [0.000, -0.000, -1.385]
+            in RPY (degree) [0.000, -0.000, -79.340]
+At time 1552915427.989
+- Translation: [59.482, 279.974, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.635, 0.772]
+            in RPY (radian) [0.000, -0.000, -1.377]
+            in RPY (degree) [0.000, -0.000, -78.910]
+At time 1552915428.989
+- Translation: [59.482, 279.979, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.636, 0.772]
+            in RPY (radian) [0.000, -0.000, -1.378]
+            in RPY (degree) [0.000, -0.000, -78.930]
+At time 1552915430.003
+- Translation: [59.472, 279.979, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.637, 0.771]
+            in RPY (radian) [0.000, -0.000, -1.381]
+            in RPY (degree) [0.000, -0.000, -79.130]
+At time 1552915431.038
+- Translation: [59.482, 279.984, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.636, 0.772]
+            in RPY (radian) [0.000, -0.000, -1.379]
+            in RPY (degree) [0.000, -0.000, -79.010]
+At time 1552915432.037
+- Translation: [59.502, 279.989, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.635, 0.773]
+            in RPY (radian) [0.000, -0.000, -1.375]
+            in RPY (degree) [0.000, -0.000, -78.770]
+At time 1552915432.560
+- Translation: [59.492, 279.984, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.636, 0.772]
+            in RPY (radian) [0.000, -0.000, -1.378]
+            in RPY (degree) [0.000, -0.000, -78.970]
+At time 1552915433.598
+- Translation: [59.527, 279.984, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.636, 0.772]
+            in RPY (radian) [0.000, -0.000, -1.379]
+            in RPY (degree) [0.000, -0.000, -78.990]
+At time 1552915434.608
+- Translation: [59.355, 279.867, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.637, 0.771]
+            in RPY (radian) [0.000, -0.000, -1.380]
+            in RPY (degree) [0.000, -0.000, -79.070]
+At time 1552915435.893
+- Translation: [59.238, 279.730, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.640, 0.769]
+            in RPY (radian) [0.000, -0.000, -1.388]
+            in RPY (degree) [0.000, -0.000, -79.550]
+At time 1552915436.961
+- Translation: [58.532, 282.230, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.636, 0.772]
+            in RPY (radian) [0.000, -0.000, -1.378]
+            in RPY (degree) [0.000, -0.000, -78.940]
+At time 1552915437.944
+- Translation: [46.350, 444.144, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.547, 0.837]
+            in RPY (radian) [0.000, -0.000, -1.159]
+            in RPY (degree) [0.000, -0.000, -66.390]
+At time 1552915439.040
+- Translation: [43.180, 440.223, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.561, 0.828]
+            in RPY (radian) [0.000, -0.000, -1.192]
+            in RPY (degree) [0.000, -0.000, -68.310]
+At time 1552915440.019
+- Translation: [34.641, 435.361, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.539, 0.842]
+            in RPY (radian) [0.000, -0.000, -1.139]
+            in RPY (degree) [0.000, -0.000, -65.260]
+At time 1552915440.995
+- Translation: [23.068, 430.936, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.523, 0.853]
+            in RPY (radian) [0.000, -0.000, -1.100]
+            in RPY (degree) [0.000, -0.000, -63.020]
+At time 1552915441.970
+- Translation: [20.716, 430.657, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.513, 0.859]
+            in RPY (radian) [0.000, -0.000, -1.077]
+            in RPY (degree) [0.000, -0.000, -61.680]
+At time 1552915442.960
+- Translation: [14.453, 428.239, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.502, 0.865]
+            in RPY (radian) [0.000, -0.000, -1.051]
+            in RPY (degree) [0.000, -0.000, -60.220]
+At time 1552915444.043
+- Translation: [6.055, 425.475, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.519, 0.855]
+            in RPY (radian) [0.000, -0.000, -1.091]
+            in RPY (degree) [0.000, -0.000, -62.520]
+At time 1552915444.582
+- Translation: [4.887, 424.937, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.548, 0.836]
+            in RPY (radian) [0.000, -0.000, -1.161]
+            in RPY (degree) [0.000, -0.000, -66.510]
+At time 1552915444.582
+- Translation: [4.887, 424.937, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.548, 0.836]
+            in RPY (radian) [0.000, -0.000, -1.161]
+            in RPY (degree) [0.000, -0.000, -66.510]
+At time 1552915444.582
+- Translation: [4.887, 424.937, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.548, 0.836]
+            in RPY (radian) [0.000, -0.000, -1.161]
+            in RPY (degree) [0.000, -0.000, -66.510]
+At time 1552915444.582
+- Translation: [4.887, 424.937, 0.000]
+- Rotation: in Quaternion [0.000, 0.000, -0.548, 0.836]
+            in RPY (radian) [0.000, -0.000, -1.161]
+            in RPY (degree) [0.000, -0.000, -66.510]

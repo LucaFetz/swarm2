@@ -1,0 +1,10 @@
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:[m[K In member function ‘[01m[Kgeometry_msgs::Vector3 RosCelluloAggregation::randomWalk()[m[K’:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:95:10:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+     for (i=0; i<nb_of_robots_detected; i++)
+[01;32m[K          ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:97:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kz[m[K’
+         if(distances_to_obstacles.z<100)
+[01;32m[K                                   ^[m[K
+make[2]: *** [CMakeFiles/ros_cellulo_aggregation.dir/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp.o] Error 1
+make[1]: *** [CMakeFiles/ros_cellulo_aggregation.dir/all] Error 2
+make: *** [all] Error 2

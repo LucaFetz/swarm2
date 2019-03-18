@@ -40,12 +40,6 @@ ros_cellulo_coverage/RosCelluloCoverage.hpp
 tf2_ros/transform_listener.h
 /home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/tf2_ros/transform_listener.h
 
-/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/ros_cellulo_coverage_node.cpp
-ros/ros.h
--
-ros_cellulo_coverage/RosCelluloCoverage.hpp
-/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/ros_cellulo_coverage/RosCelluloCoverage.hpp
-
 /opt/ros/kinetic/include/boost_161_condition_variable.h
 boost/thread/detail/platform.hpp
 -

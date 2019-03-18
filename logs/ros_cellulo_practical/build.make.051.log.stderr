@@ -1,0 +1,73 @@
+In file included from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/ros_cellulo_aggregation_node.cpp:2:0[m[K:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:71:29:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kwait[m[K’ with no type [-fpermissive]
+ RosCelluloAggregation::wait();
+[01;32m[K                             ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:71:1:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KRosCelluloAggregation::[m[K’ on member ‘[01m[Kwait[m[K’ [-fpermissive]
+ RosCelluloAggregation::wait();
+[01;32m[K ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:72:36:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KrandomWalk[m[K’ with no type [-fpermissive]
+  RosCelluloAggregation::randomWalk();
+[01;32m[K                                    ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:72:2:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KRosCelluloAggregation::[m[K’ on member ‘[01m[KrandomWalk[m[K’ [-fpermissive]
+  RosCelluloAggregation::randomWalk();
+[01;32m[K  ^[m[K
+In file included from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1:0[m[K:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:71:29:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kwait[m[K’ with no type [-fpermissive]
+ RosCelluloAggregation::wait();
+[01;32m[K                             ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:71:1:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KRosCelluloAggregation::[m[K’ on member ‘[01m[Kwait[m[K’ [-fpermissive]
+ RosCelluloAggregation::wait();
+[01;32m[K ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:72:36:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KrandomWalk[m[K’ with no type [-fpermissive]
+  RosCelluloAggregation::randomWalk();
+[01;32m[K                                    ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:72:2:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KRosCelluloAggregation::[m[K’ on member ‘[01m[KrandomWalk[m[K’ [-fpermissive]
+  RosCelluloAggregation::randomWalk();
+[01;32m[K  ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:89:24:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kgeometry_msgs::Vector3 RosCelluloAggregation::randomWalk()[m[K’ does not match any in class ‘[01m[KRosCelluloAggregation[m[K’
+ geometry_msgs::Vector3 RosCelluloAggregation::randomWalk()
+[01;32m[K                        ^[m[K
+In file included from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1:0[m[K:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:72:2:[m[K [01;31m[Kerror: [m[Kcandidate is: int RosCelluloAggregation::randomWalk()
+  RosCelluloAggregation::randomWalk();
+[01;32m[K  ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:105:24:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kgeometry_msgs::Vector3 RosCelluloAggregation::wait()[m[K’ does not match any in class ‘[01m[KRosCelluloAggregation[m[K’
+ geometry_msgs::Vector3 RosCelluloAggregation::wait()
+[01;32m[K                        ^[m[K
+In file included from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1:0[m[K:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:71:1:[m[K [01;31m[Kerror: [m[Kcandidate is: int RosCelluloAggregation::wait()
+ RosCelluloAggregation::wait();
+[01;32m[K ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:[m[K In member function ‘[01m[Kvoid RosCelluloAggregation::naive_calculate_new_velocities()[m[K’:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:131:21:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::Vector3 {aka geometry_msgs::Vector3_<std::allocator<void> >}[m[K’ and ‘[01m[Kint[m[K’)
+                 vel = wait();
+[01;32m[K                     ^[m[K
+In file included from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/devel/.private/ros_cellulo_swarm/include/ros_cellulo_swarm/ros_cellulo_sensor.h:18:0[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:4[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/geometry_msgs/Vector3.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: geometry_msgs::Vector3_<std::allocator<void> >& geometry_msgs::Vector3_<std::allocator<void> >::operator=(const geometry_msgs::Vector3_<std::allocator<void> >&)
+ struct Vector3_
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/geometry_msgs/Vector3.h:22:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst geometry_msgs::Vector3_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/kinetic/include/geometry_msgs/Vector3.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: geometry_msgs::Vector3_<std::allocator<void> >& geometry_msgs::Vector3_<std::allocator<void> >::operator=(geometry_msgs::Vector3_<std::allocator<void> >&&)
+[01m[K/opt/ros/kinetic/include/geometry_msgs/Vector3.h:22:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kgeometry_msgs::Vector3_<std::allocator<void> >&&[m[K’
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:133:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+             else{
+[01;32m[K             ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:135:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::Vector3 {aka geometry_msgs::Vector3_<std::allocator<void> >}[m[K’ and ‘[01m[Kint[m[K’)
+                     vel = randomWalk();
+[01;32m[K                         ^[m[K
+In file included from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/devel/.private/ros_cellulo_swarm/include/ros_cellulo_swarm/ros_cellulo_sensor.h:18:0[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:4[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/geometry_msgs/Vector3.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: geometry_msgs::Vector3_<std::allocator<void> >& geometry_msgs::Vector3_<std::allocator<void> >::operator=(const geometry_msgs::Vector3_<std::allocator<void> >&)
+ struct Vector3_
+[01;32m[K        ^[m[K
+[01m[K/opt/ros/kinetic/include/geometry_msgs/Vector3.h:22:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst geometry_msgs::Vector3_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/kinetic/include/geometry_msgs/Vector3.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: geometry_msgs::Vector3_<std::allocator<void> >& geometry_msgs::Vector3_<std::allocator<void> >::operator=(geometry_msgs::Vector3_<std::allocator<void> >&&)
+[01m[K/opt/ros/kinetic/include/geometry_msgs/Vector3.h:22:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kgeometry_msgs::Vector3_<std::allocator<void> >&&[m[K’
+make[2]: *** [CMakeFiles/ros_cellulo_aggregation.dir/src/ros_cellulo_aggregation/ros_cellulo_aggregation_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/ros_cellulo_aggregation.dir/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp.o] Error 1
+make[1]: *** [CMakeFiles/ros_cellulo_aggregation.dir/all] Error 2
+make: *** [all] Error 2

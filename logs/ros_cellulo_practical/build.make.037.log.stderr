@@ -1,0 +1,19 @@
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:[m[K In function ‘[01m[Kvoid randomWalk()[m[K’:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:99:28:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KRosCelluloAggregation::publisher_Velocity[m[K’
+     RosCelluloAggregation::publisher_Velocity.publish(vel);
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1:0[m[K:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:81:20:[m[K [01;36m[Knote: [m[Kdeclared here
+     ros::Publisher publisher_Velocity;
+[01;32m[K                    ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:[m[K In function ‘[01m[Kvoid wait()[m[K’:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:112:28:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KRosCelluloAggregation::publisher_Velocity[m[K’
+     RosCelluloAggregation::publisher_Velocity.publish(vel);
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1:0[m[K:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:81:20:[m[K [01;36m[Knote: [m[Kdeclared here
+     ros::Publisher publisher_Velocity;
+[01;32m[K                    ^[m[K
+make[2]: *** [CMakeFiles/ros_cellulo_aggregation.dir/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp.o] Error 1
+make[1]: *** [CMakeFiles/ros_cellulo_aggregation.dir/all] Error 2
+make: *** [all] Error 2

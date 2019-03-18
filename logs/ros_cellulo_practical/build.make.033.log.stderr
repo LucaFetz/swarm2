@@ -1,0 +1,10 @@
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:[m[K In member function ‘[01m[Kvoid RosCelluloAggregation::naive_calculate_new_velocities()[m[K’:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:125:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+         for (i=0; i<nb_of_robots_detected; i++;)
+[01;32m[K                                               ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:125:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+         for (i=0; i<nb_of_robots_detected; i++;)
+[01;32m[K                                                ^[m[K
+make[2]: *** [CMakeFiles/ros_cellulo_aggregation.dir/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp.o] Error 1
+make[1]: *** [CMakeFiles/ros_cellulo_aggregation.dir/all] Error 2
+make: *** [all] Error 2

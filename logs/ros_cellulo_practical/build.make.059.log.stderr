@@ -1,0 +1,10 @@
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/RosCelluloCoverage.cpp:[m[K In member function ‘[01m[Kvoid RosCelluloCoverage::calculate_new_velocities()[m[K’:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/RosCelluloCoverage.cpp:115:19:[m[K [01;31m[Kerror: [m[K‘[01m[Knb_of_robots[m[K’ was not declared in this scope
+         for(i=0;i<nb_of_robots; i++)
+[01;32m[K                   ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/RosCelluloCoverage.cpp:170:13:[m[K [01;31m[Kerror: [m[K‘[01m[KVelocityPublisher[m[K’ was not declared in this scope
+             VelocityPublisher.publish(vel);
+[01;32m[K             ^[m[K
+make[2]: *** [CMakeFiles/ros_cellulo_coverage.dir/src/ros_cellulo_coverage/RosCelluloCoverage.cpp.o] Error 1
+make[1]: *** [CMakeFiles/ros_cellulo_coverage.dir/all] Error 2
+make: *** [all] Error 2

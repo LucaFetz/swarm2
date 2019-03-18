@@ -1,0 +1,5 @@
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:3:21:[m[K [01;31m[Kfatal error: [m[Kcstdlib.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/ros_cellulo_aggregation.dir/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp.o] Error 1
+make[1]: *** [CMakeFiles/ros_cellulo_aggregation.dir/all] Error 2
+make: *** [all] Error 2

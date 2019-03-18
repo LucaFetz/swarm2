@@ -1,0 +1,7 @@
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/RosCelluloCoverage.cpp:[m[K In member function ‘[01m[Kvoid RosCelluloCoverage::calculate_new_velocities()[m[K’:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/RosCelluloCoverage.cpp:127:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+                     sumrx+=(-1/(r*r))*(distances_to_robots[j].x/r);
+[01;32m[K                                                                   ^[m[K
+make[2]: *** [CMakeFiles/ros_cellulo_coverage.dir/src/ros_cellulo_coverage/RosCelluloCoverage.cpp.o] Error 1
+make[1]: *** [CMakeFiles/ros_cellulo_coverage.dir/all] Error 2
+make: *** [all] Error 2

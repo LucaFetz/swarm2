@@ -1,0 +1,7 @@
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:[m[K In member function ‘[01m[Kvoid RosCelluloAggregation::randomWalk()[m[K’:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:92:46:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kint[m[K’ and ‘[01m[Kdouble[m[K’ to binary ‘[01m[Koperator%[m[K’
+     double angle= rand() %(ceil(360/thetaDis));
+[01;32m[K                                              ^[m[K
+make[2]: *** [CMakeFiles/ros_cellulo_aggregation.dir/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp.o] Error 1
+make[1]: *** [CMakeFiles/ros_cellulo_aggregation.dir/all] Error 2
+make: *** [all] Error 2

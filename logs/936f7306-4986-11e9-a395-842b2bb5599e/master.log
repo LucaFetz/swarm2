@@ -1,0 +1,558 @@
+[rosmaster.main][INFO] 2019-03-18 15:03:16,719: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-03-18 15:03:16,720: Starting ROS Master Node
+[xmlrpc][INFO] 2019-03-18 15:03:16,721: XML-RPC server binding to 0.0.0.0:11311
+[rosmaster.master][INFO] 2019-03-18 15:03:16,722: Master initialized: port[11311], uri[http://chiliPC:11311/]
+[xmlrpc][INFO] 2019-03-18 15:03:16,722: Started XML-RPC server [http://chiliPC:11311/]
+[xmlrpc][INFO] 2019-03-18 15:03:16,722: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-03-18 15:03:16,737: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,739: +PARAM [/roslaunch/uris/host_chilipc__34131] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,800: +PARAM [/cellulo_node_00_06_66_D2_CF_7B/scale_coord] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,800: +PARAM [/sensor_node_00_06_66_D2_CF_7B/scale] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,801: +PARAM [/aggregation_node_00_06_66_E7_8A_D6/scale] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,802: +PARAM [/cellulo_node_00_06_66_E7_8E_BD/scale_coord] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,802: +PARAM [/sensor_node_00_06_66_E7_8E_BD/scale] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,802: +PARAM [/sensor_node_00_06_66_E7_8E_BD/paper_width] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,802: +PARAM [/sensor_node_00_06_66_E7_8A_D6/scale] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,803: +PARAM [/sensor_node_00_06_66_D2_CF_7B/cellulo_num] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,803: +PARAM [/cellulo_node_00_06_66_E7_8A_D6/scale_coord] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,804: +SERVICE [/rosout/get_loggers] /rosout http://chiliPC:43117/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,804: +PARAM [/aggregation_node_00_06_66_E7_8E_BD/scale] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,804: +PARAM [/sensor_node_00_06_66_E7_8A_D6/paper_length] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,805: +PARAM [/sensor_node_00_06_66_D2_CF_7B/threshold] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,805: +SERVICE [/rosout/set_logger_level] /rosout http://chiliPC:43117/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,805: +PARAM [/sensor_node_00_06_66_E7_8A_D6/paper_width] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,806: +PARAM [/aggregation_node_00_06_66_E7_8E_BD/thetaDis] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,806: +PARAM [/sensor_node_00_06_66_E7_8A_D6/cellulo_num] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,807: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,807: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,807: +PARAM [/sensor_node_00_06_66_E7_8E_BD/threshold] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,808: +PUB [/rosout_agg] /rosout http://chiliPC:43117/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,808: +PARAM [/sensor_node_00_06_66_E7_8E_BD/cellulo_num] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,808: +PARAM [/sensor_node_00_06_66_E7_8A_D6/threshold] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,809: +PARAM [/aggregation_node_00_06_66_E7_8A_D6/thetaDis] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,809: +PARAM [/aggregation_node_00_06_66_D2_CF_7B/scale] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,810: +PARAM [/sensor_node_00_06_66_D2_CF_7B/paper_length] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,810: +PARAM [/sensor_node_00_06_66_D2_CF_7B/paper_width] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,810: +PARAM [/sensor_node_00_06_66_E7_8E_BD/paper_length] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,811: +PARAM [/aggregation_node_00_06_66_D2_CF_7B/thetaDis] by /roslaunch
+[rosmaster.master][INFO] 2019-03-18 15:03:16,817: +SUB [/rosout] /rosout http://chiliPC:43117/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,854: +PUB [/rosout] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,855: +SERVICE [/cellulo_node_00_06_66_E7_8A_D6/get_loggers] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,856: +SERVICE [/cellulo_node_00_06_66_E7_8A_D6/set_logger_level] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,860: +PUB [/rosout] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,863: +SERVICE [/cellulo_node_00_06_66_E7_8E_BD/get_loggers] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,865: +SUB [/cellulo_node_00_06_66_E7_8A_D6/setVisualEffect] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,866: +SERVICE [/cellulo_node_00_06_66_E7_8E_BD/set_logger_level] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,875: +PUB [/rosout] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,876: +PUB [/rosout] /sensor_node_00_06_66_E7_8A_D6 http://chiliPC:37351/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,877: +SERVICE [/cellulo_node_00_06_66_D2_CF_7B/get_loggers] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,879: +SUB [/cellulo_node_00_06_66_E7_8A_D6/setLEDResponseMode] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,880: +SERVICE [/sensor_node_00_06_66_E7_8A_D6/get_loggers] /sensor_node_00_06_66_E7_8A_D6 http://chiliPC:37351/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,881: +SERVICE [/cellulo_node_00_06_66_D2_CF_7B/set_logger_level] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,884: +SERVICE [/sensor_node_00_06_66_E7_8A_D6/set_logger_level] /sensor_node_00_06_66_E7_8A_D6 http://chiliPC:37351/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,886: +PUB [/rosout] /sensor_node_00_06_66_E7_8E_BD http://chiliPC:34629/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,887: +SUB [/cellulo_node_00_06_66_E7_8E_BD/setVisualEffect] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,890: +SERVICE [/sensor_node_00_06_66_E7_8E_BD/get_loggers] /sensor_node_00_06_66_E7_8E_BD http://chiliPC:34629/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,894: +SERVICE [/sensor_node_00_06_66_E7_8E_BD/set_logger_level] /sensor_node_00_06_66_E7_8E_BD http://chiliPC:34629/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,901: +PUB [/rosout] /sensor_node_00_06_66_D2_CF_7B http://chiliPC:46851/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,903: +SUB [/cellulo_node_00_06_66_E7_8A_D6/setGoalVelocity] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,906: +SERVICE [/sensor_node_00_06_66_D2_CF_7B/get_loggers] /sensor_node_00_06_66_D2_CF_7B http://chiliPC:46851/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,911: +SERVICE [/sensor_node_00_06_66_D2_CF_7B/set_logger_level] /sensor_node_00_06_66_D2_CF_7B http://chiliPC:46851/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,914: +PUB [/rosout] /aggregation_node_00_06_66_E7_8A_D6 http://chiliPC:40167/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,915: +SUB [/cellulo_node_00_06_66_E7_8E_BD/setLEDResponseMode] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,919: +SERVICE [/aggregation_node_00_06_66_E7_8A_D6/get_loggers] /aggregation_node_00_06_66_E7_8A_D6 http://chiliPC:40167/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,920: +SUB [/cellulo_node_00_06_66_D2_CF_7B/setVisualEffect] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,920: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/']
+[rosmaster.master][INFO] 2019-03-18 15:03:16,923: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:16,924: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/']
+[rosmaster.master][INFO] 2019-03-18 15:03:16,926: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:16,926: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/']
+[rosmaster.master][INFO] 2019-03-18 15:03:16,926: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:16,926: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/']
+[rosmaster.master][INFO] 2019-03-18 15:03:16,927: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:16,927: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/']
+[rosmaster.master][INFO] 2019-03-18 15:03:16,929: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:16,929: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/']
+[rosmaster.master][INFO] 2019-03-18 15:03:16,929: +PUB [/rosout] /aggregation_node_00_06_66_E7_8E_BD http://chiliPC:34451/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,931: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:16,932: +SERVICE [/aggregation_node_00_06_66_E7_8A_D6/set_logger_level] /aggregation_node_00_06_66_E7_8A_D6 http://chiliPC:40167/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,932: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/']
+[rosmaster.master][INFO] 2019-03-18 15:03:16,935: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:16,935: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:34451/']
+[rosmaster.master][INFO] 2019-03-18 15:03:16,936: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:34451/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:16,939: +PUB [/rosout] /aggregation_node_00_06_66_D2_CF_7B http://chiliPC:34009/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,940: +SERVICE [/aggregation_node_00_06_66_E7_8E_BD/get_loggers] /aggregation_node_00_06_66_E7_8E_BD http://chiliPC:34451/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,946: +PUB [/rosout] /tf_echo_00_06_66_E7_8A_D6 http://chiliPC:46821/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,947: +SERVICE [/aggregation_node_00_06_66_D2_CF_7B/get_loggers] /aggregation_node_00_06_66_D2_CF_7B http://chiliPC:34009/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,948: +SERVICE [/aggregation_node_00_06_66_E7_8E_BD/set_logger_level] /aggregation_node_00_06_66_E7_8E_BD http://chiliPC:34451/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,952: +SUB [/cellulo_node_00_06_66_E7_8A_D6/reset] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,957: +SERVICE [/tf_echo_00_06_66_E7_8A_D6/get_loggers] /tf_echo_00_06_66_E7_8A_D6 http://chiliPC:46821/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,958: +SERVICE [/aggregation_node_00_06_66_D2_CF_7B/set_logger_level] /aggregation_node_00_06_66_D2_CF_7B http://chiliPC:34009/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,964: +PUB [/rosout] /tf_echo_00_06_66_E7_8E_BD http://chiliPC:37307/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,966: +SUB [/setThreshold] /sensor_node_00_06_66_E7_8A_D6 http://chiliPC:37351/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,968: +SERVICE [/tf_echo_00_06_66_E7_8A_D6/set_logger_level] /tf_echo_00_06_66_E7_8A_D6 http://chiliPC:46821/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,972: +PUB [/rosout] /tf_echo_00_06_66_D2_CF_7B http://chiliPC:40407/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,972: +SERVICE [/tf_echo_00_06_66_E7_8E_BD/get_loggers] /tf_echo_00_06_66_E7_8E_BD http://chiliPC:37307/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,974: +SUB [/cellulo_node_00_06_66_E7_8E_BD/setGoalVelocity] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,978: +PUB [/rosout] /paper_world_broadcaster http://chiliPC:45893/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,979: +SUB [/cellulo_node_00_06_66_D2_CF_7B/setLEDResponseMode] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,980: +SERVICE [/tf_echo_00_06_66_D2_CF_7B/get_loggers] /tf_echo_00_06_66_D2_CF_7B http://chiliPC:40407/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,980: +SERVICE [/tf_echo_00_06_66_E7_8E_BD/set_logger_level] /tf_echo_00_06_66_E7_8E_BD http://chiliPC:37307/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,987: +SERVICE [/paper_world_broadcaster/get_loggers] /paper_world_broadcaster http://chiliPC:45893/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,989: +SERVICE [/tf_echo_00_06_66_D2_CF_7B/set_logger_level] /tf_echo_00_06_66_D2_CF_7B http://chiliPC:40407/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,992: +SUB [/setThreshold] /sensor_node_00_06_66_E7_8E_BD http://chiliPC:34629/
+[rosmaster.master][INFO] 2019-03-18 15:03:16,995: +SERVICE [/paper_world_broadcaster/set_logger_level] /paper_world_broadcaster http://chiliPC:45893/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,012: +SUB [/cellulo_node_00_06_66_E7_8A_D6/clearTracking] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,016: +SUB [/setThetaDis] /aggregation_node_00_06_66_E7_8A_D6 http://chiliPC:40167/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,017: +PUB [/tf_static] /paper_world_broadcaster http://chiliPC:45893/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,020: +SUB [/tf] /sensor_node_00_06_66_E7_8A_D6 http://chiliPC:37351/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,022: +SUB [/setThreshold] /sensor_node_00_06_66_D2_CF_7B http://chiliPC:46851/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,022: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:34451/', 'http://chiliPC:34009/']
+[rosmaster.master][INFO] 2019-03-18 15:03:17,024: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:34451/', 'http://chiliPC:34009/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:17,026: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:34451/', 'http://chiliPC:34009/', 'http://chiliPC:46821/']
+[rosmaster.master][INFO] 2019-03-18 15:03:17,026: +PUB [/cellulo_node_00_06_66_E7_8A_D6/setGoalVelocity] /aggregation_node_00_06_66_E7_8A_D6 http://chiliPC:40167/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,027: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:34451/', 'http://chiliPC:34009/', 'http://chiliPC:46821/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:17,028: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:34451/', 'http://chiliPC:34009/', 'http://chiliPC:46821/', 'http://chiliPC:37307/']
+[rosmaster.master][INFO] 2019-03-18 15:03:17,031: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:34451/', 'http://chiliPC:34009/', 'http://chiliPC:46821/', 'http://chiliPC:37307/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:17,032: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:34451/', 'http://chiliPC:34009/', 'http://chiliPC:46821/', 'http://chiliPC:37307/', 'http://chiliPC:40407/']
+[rosmaster.master][INFO] 2019-03-18 15:03:17,033: +SUB [/cellulo_node_00_06_66_E7_8E_BD/reset] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,034: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:34451/', 'http://chiliPC:34009/', 'http://chiliPC:46821/', 'http://chiliPC:37307/', 'http://chiliPC:40407/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:17,035: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:34451/', 'http://chiliPC:34009/', 'http://chiliPC:46821/', 'http://chiliPC:37307/', 'http://chiliPC:40407/', 'http://chiliPC:45893/']
+[rosmaster.master][INFO] 2019-03-18 15:03:17,037: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:34451/', 'http://chiliPC:34009/', 'http://chiliPC:46821/', 'http://chiliPC:37307/', 'http://chiliPC:40407/', 'http://chiliPC:45893/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:17,037: publisherUpdate[/cellulo_node_00_06_66_E7_8A_D6/setGoalVelocity] -> http://chiliPC:40995/ ['http://chiliPC:40167/']
+[rosmaster.master][INFO] 2019-03-18 15:03:17,039: +SUB [/setThetaDis] /aggregation_node_00_06_66_E7_8E_BD http://chiliPC:34451/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,041: +SUB [/cellulo_node_00_06_66_D2_CF_7B/setGoalVelocity] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,045: +SUB [/tf] /tf_echo_00_06_66_E7_8A_D6 http://chiliPC:46821/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,046: +SUB [/setThetaDis] /aggregation_node_00_06_66_D2_CF_7B http://chiliPC:34009/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,047: +PUB [/cellulo_node_00_06_66_E7_8E_BD/setGoalVelocity] /aggregation_node_00_06_66_E7_8E_BD http://chiliPC:34451/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,051: +SUB [/tf] /sensor_node_00_06_66_E7_8E_BD http://chiliPC:34629/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,054: +PUB [/cellulo_node_00_06_66_D2_CF_7B/setGoalVelocity] /aggregation_node_00_06_66_D2_CF_7B http://chiliPC:34009/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,057: +SUB [/tf] /tf_echo_00_06_66_E7_8E_BD http://chiliPC:37307/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,063: +SUB [/tf] /tf_echo_00_06_66_D2_CF_7B http://chiliPC:40407/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,065: +SUB [/cellulo_node_00_06_66_E7_8A_D6/shutdown] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,067: publisherUpdate[/cellulo_node_00_06_66_E7_8A_D6/setGoalVelocity] -> http://chiliPC:40995/ ['http://chiliPC:40167/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:17,068: publisherUpdate[/cellulo_node_00_06_66_E7_8E_BD/setGoalVelocity] -> http://chiliPC:34817/ ['http://chiliPC:34451/']
+[rosmaster.master][INFO] 2019-03-18 15:03:17,075: +SUB [/tf_static] /sensor_node_00_06_66_E7_8A_D6 http://chiliPC:37351/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,077: +SUB [/tf] /sensor_node_00_06_66_D2_CF_7B http://chiliPC:46851/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,079: +SUB [/sensor_node_00_06_66_E7_8A_D6/detectedRobots] /aggregation_node_00_06_66_E7_8A_D6 http://chiliPC:40167/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,085: +PUB [/sensor_node_00_06_66_E7_8A_D6/detectedRobots] /sensor_node_00_06_66_E7_8A_D6 http://chiliPC:37351/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,087: +SUB [/cellulo_node_00_06_66_E7_8E_BD/clearTracking] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,088: publisherUpdate[/cellulo_node_00_06_66_E7_8E_BD/setGoalVelocity] -> http://chiliPC:34817/ ['http://chiliPC:34451/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:17,089: publisherUpdate[/cellulo_node_00_06_66_D2_CF_7B/setGoalVelocity] -> http://chiliPC:45305/ ['http://chiliPC:34009/']
+[rosmaster.master][INFO] 2019-03-18 15:03:17,093: +SUB [/cellulo_node_00_06_66_D2_CF_7B/reset] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,095: publisherUpdate[/cellulo_node_00_06_66_D2_CF_7B/setGoalVelocity] -> http://chiliPC:45305/ ['http://chiliPC:34009/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:17,095: publisherUpdate[/sensor_node_00_06_66_E7_8A_D6/detectedRobots] -> http://chiliPC:40167/ ['http://chiliPC:37351/']
+[rosmaster.master][INFO] 2019-03-18 15:03:17,097: +PUB [/sensor_node_00_06_66_E7_8A_D6/detectedObstacles] /sensor_node_00_06_66_E7_8A_D6 http://chiliPC:37351/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,100: +SUB [/tf_static] /tf_echo_00_06_66_E7_8A_D6 http://chiliPC:46821/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,103: +SUB [/sensor_node_00_06_66_E7_8E_BD/detectedRobots] /aggregation_node_00_06_66_E7_8E_BD http://chiliPC:34451/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,107: +SUB [/tf_static] /sensor_node_00_06_66_E7_8E_BD http://chiliPC:34629/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,110: +SUB [/sensor_node_00_06_66_D2_CF_7B/detectedRobots] /aggregation_node_00_06_66_D2_CF_7B http://chiliPC:34009/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,113: +SUB [/tf_static] /tf_echo_00_06_66_E7_8E_BD http://chiliPC:37307/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,114: +PUB [/sensor_node_00_06_66_E7_8E_BD/detectedRobots] /sensor_node_00_06_66_E7_8E_BD http://chiliPC:34629/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,119: +SUB [/tf_static] /tf_echo_00_06_66_D2_CF_7B http://chiliPC:40407/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,121: +SUB [/cellulo_node_00_06_66_E7_8A_D6/clearHapticFeedback] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,122: +PUB [/sensor_node_00_06_66_E7_8E_BD/detectedObstacles] /sensor_node_00_06_66_E7_8E_BD http://chiliPC:34629/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,122: publisherUpdate[/sensor_node_00_06_66_E7_8E_BD/detectedRobots] -> http://chiliPC:34451/ ['http://chiliPC:34629/']
+[rosmaster.master][INFO] 2019-03-18 15:03:17,132: +SUB [/tf_static] /sensor_node_00_06_66_D2_CF_7B http://chiliPC:46851/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,133: +SUB [/sensor_node_00_06_66_E7_8A_D6/detectedObstacles] /aggregation_node_00_06_66_E7_8A_D6 http://chiliPC:40167/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,135: publisherUpdate[/sensor_node_00_06_66_E7_8A_D6/detectedRobots] -> http://chiliPC:40167/ ['http://chiliPC:37351/']: sec=0.04, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:17,137: +PUB [/rosout] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,138: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:34451/', 'http://chiliPC:34009/', 'http://chiliPC:46821/', 'http://chiliPC:37307/', 'http://chiliPC:40407/', 'http://chiliPC:45893/', 'http://chiliPC:40785/']
+[rosmaster.master][INFO] 2019-03-18 15:03:17,140: +SUB [/cellulo_node_00_06_66_E7_8E_BD/shutdown] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,141: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:34451/', 'http://chiliPC:34009/', 'http://chiliPC:46821/', 'http://chiliPC:37307/', 'http://chiliPC:40407/', 'http://chiliPC:45893/', 'http://chiliPC:40785/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:17,142: +PUB [/sensor_node_00_06_66_D2_CF_7B/detectedRobots] /sensor_node_00_06_66_D2_CF_7B http://chiliPC:46851/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,144: publisherUpdate[/sensor_node_00_06_66_D2_CF_7B/detectedRobots] -> http://chiliPC:34009/ ['http://chiliPC:46851/']
+[rosmaster.master][INFO] 2019-03-18 15:03:17,146: +SERVICE [/rviz_chiliPC_5934_4577919710114491444/get_loggers] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,148: +SUB [/cellulo_node_00_06_66_D2_CF_7B/clearTracking] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,151: +PUB [/sensor_node_00_06_66_D2_CF_7B/detectedObstacles] /sensor_node_00_06_66_D2_CF_7B http://chiliPC:46851/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,152: +SUB [/sensor_node_00_06_66_E7_8E_BD/detectedObstacles] /aggregation_node_00_06_66_E7_8E_BD http://chiliPC:34451/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,153: +SERVICE [/rviz_chiliPC_5934_4577919710114491444/set_logger_level] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,155: publisherUpdate[/sensor_node_00_06_66_E7_8E_BD/detectedRobots] -> http://chiliPC:34451/ ['http://chiliPC:34629/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:17,157: +SUB [/sensor_node_00_06_66_D2_CF_7B/detectedObstacles] /aggregation_node_00_06_66_D2_CF_7B http://chiliPC:34009/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,159: publisherUpdate[/sensor_node_00_06_66_D2_CF_7B/detectedRobots] -> http://chiliPC:34009/ ['http://chiliPC:46851/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:17,170: +SUB [/cellulo_node_00_06_66_E7_8A_D6/vibrateOnMotion] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,178: +SUB [/cellulo_node_00_06_66_E7_8A_D6/velocity] /aggregation_node_00_06_66_E7_8A_D6 http://chiliPC:40167/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,180: +SUB [/cellulo_node_00_06_66_E7_8E_BD/clearHapticFeedback] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,182: +SUB [/cellulo_node_00_06_66_D2_CF_7B/shutdown] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,185: +SUB [/cellulo_node_00_06_66_E7_8E_BD/velocity] /aggregation_node_00_06_66_E7_8E_BD http://chiliPC:34451/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,187: +SUB [/cellulo_node_00_06_66_D2_CF_7B/velocity] /aggregation_node_00_06_66_D2_CF_7B http://chiliPC:34009/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,190: +SUB [/cellulo_node_00_06_66_E7_8A_D6/simpleVibrate] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,194: +SUB [/cellulo_node_00_06_66_E7_8E_BD/vibrateOnMotion] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,196: +SUB [/cellulo_node_00_06_66_D2_CF_7B/clearHapticFeedback] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,201: +SUB [/cellulo_node_00_06_66_E7_8A_D6/setGestureEnabled] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,206: +SUB [/cellulo_node_00_06_66_E7_8E_BD/simpleVibrate] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,207: +SUB [/cellulo_node_00_06_66_D2_CF_7B/vibrateOnMotion] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,213: +SUB [/cellulo_node_00_06_66_E7_8A_D6/setCasualBackdriveAssistEnabled] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,216: +PUB [/cellulo_node_00_06_66_E7_8A_D6/touchKey] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,218: +PUB [/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,218: +SUB [/cellulo_node_00_06_66_E7_8E_BD/setGestureEnabled] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,219: +SUB [/cellulo_node_00_06_66_D2_CF_7B/simpleVibrate] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,220: +PUB [/cellulo_node_00_06_66_E7_8A_D6/kidnapped] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,223: +PUB [/cellulo_node_00_06_66_E7_8A_D6/velocity] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,225: +PUB [/cellulo_node_00_06_66_E7_8A_D6/connectionStatus] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,226: +PUB [/cellulo_node_00_06_66_E7_8A_D6/localAdapterAdress] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,229: +PUB [/cellulo_node_00_06_66_E7_8A_D6/autoConnect] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,231: +SUB [/cellulo_node_00_06_66_E7_8E_BD/setCasualBackdriveAssistEnabled] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,231: +PUB [/cellulo_node_00_06_66_E7_8A_D6/batteryState] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,232: +SUB [/cellulo_node_00_06_66_D2_CF_7B/setGestureEnabled] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,233: +PUB [/cellulo_node_00_06_66_E7_8E_BD/touchKey] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,234: +PUB [/cellulo_node_00_06_66_E7_8A_D6/gesture] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,235: publisherUpdate[/cellulo_node_00_06_66_E7_8A_D6/velocity] -> http://chiliPC:40167/ ['http://chiliPC:40995/']
+[rosmaster.master][INFO] 2019-03-18 15:03:17,236: +PUB [/cellulo_node_00_06_66_E7_8E_BD/longTouchKey] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,237: publisherUpdate[/cellulo_node_00_06_66_E7_8A_D6/velocity] -> http://chiliPC:40167/ ['http://chiliPC:40995/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:17,238: +PUB [/cellulo_node_00_06_66_E7_8A_D6/lastTimestamp] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,239: +PUB [/cellulo_node_00_06_66_E7_8E_BD/kidnapped] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,240: +PUB [/cellulo_node_00_06_66_E7_8A_D6/framerate] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,242: +PUB [/cellulo_node_00_06_66_E7_8E_BD/velocity] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,244: +PUB [/cellulo_node_00_06_66_E7_8A_D6/cameraImageProgress] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,245: +SUB [/cellulo_node_00_06_66_D2_CF_7B/setCasualBackdriveAssistEnabled] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,247: +PUB [/cellulo_node_00_06_66_E7_8E_BD/connectionStatus] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,248: +PUB [/cellulo_node_00_06_66_E7_8A_D6/poseVelControlEnable] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,249: +PUB [/cellulo_node_00_06_66_D2_CF_7B/touchKey] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,250: +PUB [/cellulo_node_00_06_66_E7_8E_BD/localAdapterAdress] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,251: +PUB [/cellulo_node_00_06_66_E7_8A_D6/poseVelControlPeriod] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,252: +PUB [/cellulo_node_00_06_66_D2_CF_7B/longTouchKey] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,252: +PUB [/cellulo_node_00_06_66_E7_8E_BD/autoConnect] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,253: +PUB [/cellulo_node_00_06_66_E7_8A_D6/visualization_marker_robot] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,254: +PUB [/cellulo_node_00_06_66_D2_CF_7B/kidnapped] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,255: +PUB [/cellulo_node_00_06_66_E7_8E_BD/batteryState] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,256: publisherUpdate[/cellulo_node_00_06_66_E7_8E_BD/velocity] -> http://chiliPC:34451/ ['http://chiliPC:34817/']
+[rosmaster.master][INFO] 2019-03-18 15:03:17,256: +PUB [/cellulo_node_00_06_66_E7_8A_D6/visualization_marker_traj] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,256: publisherUpdate[/cellulo_node_00_06_66_E7_8E_BD/velocity] -> http://chiliPC:34451/ ['http://chiliPC:34817/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:17,257: +PUB [/cellulo_node_00_06_66_D2_CF_7B/velocity] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,258: publisherUpdate[/cellulo_node_00_06_66_D2_CF_7B/velocity] -> http://chiliPC:34009/ ['http://chiliPC:45305/']
+[rosmaster.master][INFO] 2019-03-18 15:03:17,258: +PUB [/cellulo_node_00_06_66_E7_8E_BD/gesture] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,259: publisherUpdate[/cellulo_node_00_06_66_D2_CF_7B/velocity] -> http://chiliPC:34009/ ['http://chiliPC:45305/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:17,259: +SERVICE [/cellulo_node_00_06_66_E7_8A_D6/get_state] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,260: +PUB [/cellulo_node_00_06_66_D2_CF_7B/connectionStatus] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,260: +PUB [/cellulo_node_00_06_66_E7_8E_BD/lastTimestamp] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,261: +PUB [/cellulo_node_00_06_66_D2_CF_7B/localAdapterAdress] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,262: +PUB [/cellulo_node_00_06_66_E7_8E_BD/framerate] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,263: +PUB [/cellulo_node_00_06_66_D2_CF_7B/autoConnect] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,264: +PUB [/cellulo_node_00_06_66_E7_8E_BD/cameraImageProgress] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,264: +PUB [/cellulo_node_00_06_66_D2_CF_7B/batteryState] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,265: +PUB [/cellulo_node_00_06_66_E7_8E_BD/poseVelControlEnable] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,266: +PUB [/cellulo_node_00_06_66_D2_CF_7B/gesture] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,266: +PUB [/cellulo_node_00_06_66_E7_8E_BD/poseVelControlPeriod] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,267: +PUB [/cellulo_node_00_06_66_D2_CF_7B/lastTimestamp] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,268: +PUB [/cellulo_node_00_06_66_E7_8E_BD/visualization_marker_robot] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,268: +PUB [/cellulo_node_00_06_66_D2_CF_7B/framerate] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,269: +PUB [/cellulo_node_00_06_66_E7_8E_BD/visualization_marker_traj] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,270: +PUB [/cellulo_node_00_06_66_D2_CF_7B/cameraImageProgress] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,271: +SERVICE [/cellulo_node_00_06_66_E7_8E_BD/get_state] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,272: +PUB [/cellulo_node_00_06_66_D2_CF_7B/poseVelControlEnable] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,272: +PUB [/cellulo_node_00_06_66_D2_CF_7B/poseVelControlPeriod] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,273: +PUB [/cellulo_node_00_06_66_D2_CF_7B/visualization_marker_robot] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,274: +PUB [/cellulo_node_00_06_66_D2_CF_7B/visualization_marker_traj] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,275: +SERVICE [/cellulo_node_00_06_66_D2_CF_7B/get_state] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,611: +SUB [/tf] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,617: +SUB [/tf_static] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,678: +PUB [/initialpose] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,680: +PUB [/goal] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,692: +SUB [/visualization_marker] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,699: +SUB [/visualization_marker_array] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,700: -SUB [/visualization_marker] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,702: -SUB [/visualization_marker_array] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,708: +SUB [/cellulo_node_3E_7E/visualization_marker_robot] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,715: +SUB [/cellulo_node_3E_7E/visualization_marker_robot_array] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,721: +SUB [/visualization_marker] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,728: +SUB [/visualization_marker_array] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,729: -SUB [/visualization_marker] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,731: -SUB [/visualization_marker_array] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,737: +SUB [/cellulo_node_3E_82/visualization_marker_robot] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,744: +SUB [/cellulo_node_3E_82/visualization_marker_robot_array] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,746: -PUB [/goal] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,748: -PUB [/initialpose] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,755: +PUB [/initialpose] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,757: +PUB [/goal] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,758: +PUB [/move_base_simple/goal] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,760: -PUB [/goal] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,761: +PUB [/clicked_point] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:17,800: +SERVICE [/rviz_chiliPC_5934_4577919710114491444/reload_shaders] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:03:25,357: +PUB [/tf] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:03:25,375: publisherUpdate[/tf] -> http://chiliPC:37351/ ['http://chiliPC:34817/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,375: publisherUpdate[/tf] -> http://chiliPC:46821/ ['http://chiliPC:34817/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,378: publisherUpdate[/tf] -> http://chiliPC:46821/ ['http://chiliPC:34817/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,377: publisherUpdate[/tf] -> http://chiliPC:37351/ ['http://chiliPC:34817/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,378: publisherUpdate[/tf] -> http://chiliPC:34629/ ['http://chiliPC:34817/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,379: publisherUpdate[/tf] -> http://chiliPC:37307/ ['http://chiliPC:34817/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,380: publisherUpdate[/tf] -> http://chiliPC:34629/ ['http://chiliPC:34817/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,381: publisherUpdate[/tf] -> http://chiliPC:37307/ ['http://chiliPC:34817/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,381: publisherUpdate[/tf] -> http://chiliPC:40407/ ['http://chiliPC:34817/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,382: publisherUpdate[/tf] -> http://chiliPC:46851/ ['http://chiliPC:34817/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,384: publisherUpdate[/tf] -> http://chiliPC:40407/ ['http://chiliPC:34817/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,384: publisherUpdate[/tf] -> http://chiliPC:46851/ ['http://chiliPC:34817/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,385: publisherUpdate[/tf] -> http://chiliPC:40785/ ['http://chiliPC:34817/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,386: publisherUpdate[/tf] -> http://chiliPC:40785/ ['http://chiliPC:34817/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,733: +PUB [/tf] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:03:25,752: publisherUpdate[/tf] -> http://chiliPC:37351/ ['http://chiliPC:34817/', 'http://chiliPC:40995/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,754: publisherUpdate[/tf] -> http://chiliPC:37351/ ['http://chiliPC:34817/', 'http://chiliPC:40995/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,754: publisherUpdate[/tf] -> http://chiliPC:46821/ ['http://chiliPC:34817/', 'http://chiliPC:40995/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,755: publisherUpdate[/tf] -> http://chiliPC:46821/ ['http://chiliPC:34817/', 'http://chiliPC:40995/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,755: publisherUpdate[/tf] -> http://chiliPC:34629/ ['http://chiliPC:34817/', 'http://chiliPC:40995/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,757: publisherUpdate[/tf] -> http://chiliPC:34629/ ['http://chiliPC:34817/', 'http://chiliPC:40995/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,757: publisherUpdate[/tf] -> http://chiliPC:37307/ ['http://chiliPC:34817/', 'http://chiliPC:40995/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,758: publisherUpdate[/tf] -> http://chiliPC:37307/ ['http://chiliPC:34817/', 'http://chiliPC:40995/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,759: publisherUpdate[/tf] -> http://chiliPC:40407/ ['http://chiliPC:34817/', 'http://chiliPC:40995/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,760: publisherUpdate[/tf] -> http://chiliPC:40407/ ['http://chiliPC:34817/', 'http://chiliPC:40995/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,760: publisherUpdate[/tf] -> http://chiliPC:46851/ ['http://chiliPC:34817/', 'http://chiliPC:40995/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,761: publisherUpdate[/tf] -> http://chiliPC:46851/ ['http://chiliPC:34817/', 'http://chiliPC:40995/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,762: publisherUpdate[/tf] -> http://chiliPC:40785/ ['http://chiliPC:34817/', 'http://chiliPC:40995/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,763: publisherUpdate[/tf] -> http://chiliPC:40785/ ['http://chiliPC:34817/', 'http://chiliPC:40995/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,875: +PUB [/tf] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:03:25,886: publisherUpdate[/tf] -> http://chiliPC:37351/ ['http://chiliPC:34817/', 'http://chiliPC:40995/', 'http://chiliPC:45305/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,887: publisherUpdate[/tf] -> http://chiliPC:37351/ ['http://chiliPC:34817/', 'http://chiliPC:40995/', 'http://chiliPC:45305/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,887: publisherUpdate[/tf] -> http://chiliPC:46821/ ['http://chiliPC:34817/', 'http://chiliPC:40995/', 'http://chiliPC:45305/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,888: publisherUpdate[/tf] -> http://chiliPC:34629/ ['http://chiliPC:34817/', 'http://chiliPC:40995/', 'http://chiliPC:45305/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,889: publisherUpdate[/tf] -> http://chiliPC:46821/ ['http://chiliPC:34817/', 'http://chiliPC:40995/', 'http://chiliPC:45305/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,890: publisherUpdate[/tf] -> http://chiliPC:34629/ ['http://chiliPC:34817/', 'http://chiliPC:40995/', 'http://chiliPC:45305/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,890: publisherUpdate[/tf] -> http://chiliPC:37307/ ['http://chiliPC:34817/', 'http://chiliPC:40995/', 'http://chiliPC:45305/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,890: publisherUpdate[/tf] -> http://chiliPC:40407/ ['http://chiliPC:34817/', 'http://chiliPC:40995/', 'http://chiliPC:45305/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,892: publisherUpdate[/tf] -> http://chiliPC:37307/ ['http://chiliPC:34817/', 'http://chiliPC:40995/', 'http://chiliPC:45305/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,892: publisherUpdate[/tf] -> http://chiliPC:40407/ ['http://chiliPC:34817/', 'http://chiliPC:40995/', 'http://chiliPC:45305/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,892: publisherUpdate[/tf] -> http://chiliPC:46851/ ['http://chiliPC:34817/', 'http://chiliPC:40995/', 'http://chiliPC:45305/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,893: publisherUpdate[/tf] -> http://chiliPC:40785/ ['http://chiliPC:34817/', 'http://chiliPC:40995/', 'http://chiliPC:45305/']
+[rosmaster.master][INFO] 2019-03-18 15:03:25,894: publisherUpdate[/tf] -> http://chiliPC:46851/ ['http://chiliPC:34817/', 'http://chiliPC:40995/', 'http://chiliPC:45305/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:03:25,895: publisherUpdate[/tf] -> http://chiliPC:40785/ ['http://chiliPC:34817/', 'http://chiliPC:40995/', 'http://chiliPC:45305/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,541: -PUB [/rosout] /aggregation_node_00_06_66_E7_8E_BD http://chiliPC:34451/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,542: -PUB [/cellulo_node_00_06_66_E7_8E_BD/setGoalVelocity] /aggregation_node_00_06_66_E7_8E_BD http://chiliPC:34451/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,544: -PUB [/rosout] /aggregation_node_00_06_66_D2_CF_7B http://chiliPC:34009/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,544: -SUB [/setThetaDis] /aggregation_node_00_06_66_E7_8E_BD http://chiliPC:34451/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,545: -PUB [/cellulo_node_00_06_66_D2_CF_7B/setGoalVelocity] /aggregation_node_00_06_66_D2_CF_7B http://chiliPC:34009/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,546: -SUB [/sensor_node_00_06_66_E7_8E_BD/detectedRobots] /aggregation_node_00_06_66_E7_8E_BD http://chiliPC:34451/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,546: -SUB [/setThetaDis] /aggregation_node_00_06_66_D2_CF_7B http://chiliPC:34009/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,547: -SUB [/sensor_node_00_06_66_E7_8E_BD/detectedObstacles] /aggregation_node_00_06_66_E7_8E_BD http://chiliPC:34451/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,547: -SUB [/sensor_node_00_06_66_D2_CF_7B/detectedRobots] /aggregation_node_00_06_66_D2_CF_7B http://chiliPC:34009/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,548: -SUB [/cellulo_node_00_06_66_E7_8E_BD/velocity] /aggregation_node_00_06_66_E7_8E_BD http://chiliPC:34451/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,549: -SUB [/sensor_node_00_06_66_D2_CF_7B/detectedObstacles] /aggregation_node_00_06_66_D2_CF_7B http://chiliPC:34009/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,550: -SERVICE [/aggregation_node_00_06_66_E7_8E_BD/get_loggers] /aggregation_node_00_06_66_E7_8E_BD rosrpc://chiliPC:33235
+[rosmaster.master][INFO] 2019-03-18 15:04:08,550: -SUB [/cellulo_node_00_06_66_D2_CF_7B/velocity] /aggregation_node_00_06_66_D2_CF_7B http://chiliPC:34009/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,551: -SERVICE [/aggregation_node_00_06_66_E7_8E_BD/set_logger_level] /aggregation_node_00_06_66_E7_8E_BD rosrpc://chiliPC:33235
+[rosmaster.master][INFO] 2019-03-18 15:04:08,552: -SERVICE [/aggregation_node_00_06_66_D2_CF_7B/get_loggers] /aggregation_node_00_06_66_D2_CF_7B rosrpc://chiliPC:41263
+[rosmaster.master][INFO] 2019-03-18 15:04:08,552: -SERVICE [/aggregation_node_00_06_66_D2_CF_7B/set_logger_level] /aggregation_node_00_06_66_D2_CF_7B rosrpc://chiliPC:41263
+[rosmaster.master][INFO] 2019-03-18 15:04:08,558: -PUB [/rosout] /sensor_node_00_06_66_E7_8E_BD http://chiliPC:34629/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,558: -PUB [/rosout] /tf_echo_00_06_66_E7_8A_D6 http://chiliPC:46821/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,559: -PUB [/sensor_node_00_06_66_E7_8E_BD/detectedRobots] /sensor_node_00_06_66_E7_8E_BD http://chiliPC:34629/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,560: -SUB [/tf] /tf_echo_00_06_66_E7_8A_D6 http://chiliPC:46821/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,560: -PUB [/sensor_node_00_06_66_E7_8E_BD/detectedObstacles] /sensor_node_00_06_66_E7_8E_BD http://chiliPC:34629/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,561: -SUB [/tf_static] /tf_echo_00_06_66_E7_8A_D6 http://chiliPC:46821/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,562: -PUB [/rosout] /tf_echo_00_06_66_D2_CF_7B http://chiliPC:40407/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,563: -PUB [/rosout] /tf_echo_00_06_66_E7_8E_BD http://chiliPC:37307/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,564: -SUB [/setThreshold] /sensor_node_00_06_66_E7_8E_BD http://chiliPC:34629/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,565: -SERVICE [/tf_echo_00_06_66_E7_8A_D6/get_loggers] /tf_echo_00_06_66_E7_8A_D6 rosrpc://chiliPC:33759
+[rosmaster.master][INFO] 2019-03-18 15:04:08,565: -SUB [/tf] /tf_echo_00_06_66_D2_CF_7B http://chiliPC:40407/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,566: -SUB [/tf] /tf_echo_00_06_66_E7_8E_BD http://chiliPC:37307/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,567: -PUB [/rosout] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,568: -SUB [/tf] /sensor_node_00_06_66_E7_8E_BD http://chiliPC:34629/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,569: -SERVICE [/tf_echo_00_06_66_E7_8A_D6/set_logger_level] /tf_echo_00_06_66_E7_8A_D6 rosrpc://chiliPC:33759
+[rosmaster.master][INFO] 2019-03-18 15:04:08,569: -SUB [/tf_static] /tf_echo_00_06_66_D2_CF_7B http://chiliPC:40407/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,570: -SUB [/tf_static] /tf_echo_00_06_66_E7_8E_BD http://chiliPC:37307/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,571: -SUB [/tf_static] /sensor_node_00_06_66_E7_8E_BD http://chiliPC:34629/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,571: -PUB [/initialpose] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,572: -SERVICE [/tf_echo_00_06_66_D2_CF_7B/get_loggers] /tf_echo_00_06_66_D2_CF_7B rosrpc://chiliPC:56829
+[rosmaster.master][INFO] 2019-03-18 15:04:08,573: -SERVICE [/tf_echo_00_06_66_E7_8E_BD/get_loggers] /tf_echo_00_06_66_E7_8E_BD rosrpc://chiliPC:55229
+[rosmaster.master][INFO] 2019-03-18 15:04:08,573: -SERVICE [/sensor_node_00_06_66_E7_8E_BD/get_loggers] /sensor_node_00_06_66_E7_8E_BD rosrpc://chiliPC:54319
+[rosmaster.master][INFO] 2019-03-18 15:04:08,574: -PUB [/move_base_simple/goal] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,575: -SERVICE [/tf_echo_00_06_66_D2_CF_7B/set_logger_level] /tf_echo_00_06_66_D2_CF_7B rosrpc://chiliPC:56829
+[rosmaster.master][INFO] 2019-03-18 15:04:08,575: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:34009/', 'http://chiliPC:46821/', 'http://chiliPC:37307/', 'http://chiliPC:40407/', 'http://chiliPC:45893/', 'http://chiliPC:40785/']
+[rosmaster.master][INFO] 2019-03-18 15:04:08,575: publisherUpdate[/cellulo_node_00_06_66_E7_8E_BD/setGoalVelocity] -> http://chiliPC:34817/ []
+[rosmaster.master][INFO] 2019-03-18 15:04:08,576: -SERVICE [/tf_echo_00_06_66_E7_8E_BD/set_logger_level] /tf_echo_00_06_66_E7_8E_BD rosrpc://chiliPC:55229
+[rosmaster.master][INFO] 2019-03-18 15:04:08,577: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:34009/', 'http://chiliPC:46821/', 'http://chiliPC:37307/', 'http://chiliPC:40407/', 'http://chiliPC:45893/', 'http://chiliPC:40785/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,577: -SERVICE [/sensor_node_00_06_66_E7_8E_BD/set_logger_level] /sensor_node_00_06_66_E7_8E_BD rosrpc://chiliPC:54319
+[rosmaster.master][INFO] 2019-03-18 15:04:08,578: publisherUpdate[/cellulo_node_00_06_66_E7_8E_BD/setGoalVelocity] -> http://chiliPC:34817/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,578: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:46821/', 'http://chiliPC:37307/', 'http://chiliPC:40407/', 'http://chiliPC:45893/', 'http://chiliPC:40785/']
+[rosmaster.master][INFO] 2019-03-18 15:04:08,579: -PUB [/clicked_point] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,579: publisherUpdate[/cellulo_node_00_06_66_D2_CF_7B/setGoalVelocity] -> http://chiliPC:45305/ []
+[rosmaster.master][INFO] 2019-03-18 15:04:08,580: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:34629/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:46821/', 'http://chiliPC:37307/', 'http://chiliPC:40407/', 'http://chiliPC:45893/', 'http://chiliPC:40785/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,580: publisherUpdate[/cellulo_node_00_06_66_D2_CF_7B/setGoalVelocity] -> http://chiliPC:45305/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,581: -SUB [/tf] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,581: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:46821/', 'http://chiliPC:37307/', 'http://chiliPC:40407/', 'http://chiliPC:45893/', 'http://chiliPC:40785/']
+[rosmaster.master][INFO] 2019-03-18 15:04:08,582: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:46821/', 'http://chiliPC:37307/', 'http://chiliPC:40407/', 'http://chiliPC:45893/', 'http://chiliPC:40785/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,582: -SUB [/tf_static] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,582: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:37307/', 'http://chiliPC:40407/', 'http://chiliPC:45893/', 'http://chiliPC:40785/']
+[rosmaster.master][INFO] 2019-03-18 15:04:08,583: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:37307/', 'http://chiliPC:40407/', 'http://chiliPC:45893/', 'http://chiliPC:40785/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,584: -SUB [/cellulo_node_3E_7E/visualization_marker_robot] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,584: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:37307/', 'http://chiliPC:45893/', 'http://chiliPC:40785/']
+[rosmaster.master][INFO] 2019-03-18 15:04:08,585: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:37307/', 'http://chiliPC:45893/', 'http://chiliPC:40785/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,585: -SUB [/cellulo_node_3E_7E/visualization_marker_robot_array] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,585: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:45893/', 'http://chiliPC:40785/']
+[rosmaster.master][INFO] 2019-03-18 15:04:08,586: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:45893/', 'http://chiliPC:40785/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,587: -SUB [/cellulo_node_3E_82/visualization_marker_robot] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,587: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:45893/']
+[rosmaster.master][INFO] 2019-03-18 15:04:08,588: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:46851/', 'http://chiliPC:40167/', 'http://chiliPC:45893/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,588: -SUB [/cellulo_node_3E_82/visualization_marker_robot_array] /rviz_chiliPC_5934_4577919710114491444 http://chiliPC:40785/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,589: -SERVICE [/rviz_chiliPC_5934_4577919710114491444/get_loggers] /rviz_chiliPC_5934_4577919710114491444 rosrpc://chiliPC:45333
+[rosmaster.master][INFO] 2019-03-18 15:04:08,590: -SERVICE [/rviz_chiliPC_5934_4577919710114491444/set_logger_level] /rviz_chiliPC_5934_4577919710114491444 rosrpc://chiliPC:45333
+[rosmaster.master][INFO] 2019-03-18 15:04:08,590: -SERVICE [/rviz_chiliPC_5934_4577919710114491444/reload_shaders] /rviz_chiliPC_5934_4577919710114491444 rosrpc://chiliPC:45333
+[rosmaster.master][INFO] 2019-03-18 15:04:08,621: -PUB [/rosout] /aggregation_node_00_06_66_E7_8A_D6 http://chiliPC:40167/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,622: -PUB [/cellulo_node_00_06_66_E7_8A_D6/setGoalVelocity] /aggregation_node_00_06_66_E7_8A_D6 http://chiliPC:40167/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,622: -SUB [/setThetaDis] /aggregation_node_00_06_66_E7_8A_D6 http://chiliPC:40167/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,623: -SUB [/sensor_node_00_06_66_E7_8A_D6/detectedRobots] /aggregation_node_00_06_66_E7_8A_D6 http://chiliPC:40167/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,624: -SUB [/sensor_node_00_06_66_E7_8A_D6/detectedObstacles] /aggregation_node_00_06_66_E7_8A_D6 http://chiliPC:40167/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,625: -SUB [/cellulo_node_00_06_66_E7_8A_D6/velocity] /aggregation_node_00_06_66_E7_8A_D6 http://chiliPC:40167/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,626: -PUB [/rosout] /paper_world_broadcaster http://chiliPC:45893/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,626: -SERVICE [/aggregation_node_00_06_66_E7_8A_D6/get_loggers] /aggregation_node_00_06_66_E7_8A_D6 rosrpc://chiliPC:48743
+[rosmaster.master][INFO] 2019-03-18 15:04:08,627: -PUB [/tf_static] /paper_world_broadcaster http://chiliPC:45893/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,628: -SERVICE [/aggregation_node_00_06_66_E7_8A_D6/set_logger_level] /aggregation_node_00_06_66_E7_8A_D6 rosrpc://chiliPC:48743
+[rosmaster.master][INFO] 2019-03-18 15:04:08,628: -SERVICE [/paper_world_broadcaster/get_loggers] /paper_world_broadcaster rosrpc://chiliPC:55147
+[rosmaster.master][INFO] 2019-03-18 15:04:08,629: -SERVICE [/paper_world_broadcaster/set_logger_level] /paper_world_broadcaster rosrpc://chiliPC:55147
+[rosmaster.master][INFO] 2019-03-18 15:04:08,641: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:46851/', 'http://chiliPC:45893/']
+[rosmaster.master][INFO] 2019-03-18 15:04:08,642: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:46851/', 'http://chiliPC:45893/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,642: publisherUpdate[/cellulo_node_00_06_66_E7_8A_D6/setGoalVelocity] -> http://chiliPC:40995/ []
+[rosmaster.master][INFO] 2019-03-18 15:04:08,643: publisherUpdate[/cellulo_node_00_06_66_E7_8A_D6/setGoalVelocity] -> http://chiliPC:40995/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,644: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:46851/']
+[rosmaster.master][INFO] 2019-03-18 15:04:08,645: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/', 'http://chiliPC:46851/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,645: publisherUpdate[/tf_static] -> http://chiliPC:37351/ []
+[rosmaster.master][INFO] 2019-03-18 15:04:08,646: publisherUpdate[/tf_static] -> http://chiliPC:37351/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,646: publisherUpdate[/tf_static] -> http://chiliPC:46851/ []
+[rosmaster.master][INFO] 2019-03-18 15:04:08,647: publisherUpdate[/tf_static] -> http://chiliPC:46851/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,748: -PUB [/rosout] /sensor_node_00_06_66_D2_CF_7B http://chiliPC:46851/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,750: -PUB [/sensor_node_00_06_66_D2_CF_7B/detectedRobots] /sensor_node_00_06_66_D2_CF_7B http://chiliPC:46851/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,752: -PUB [/sensor_node_00_06_66_D2_CF_7B/detectedObstacles] /sensor_node_00_06_66_D2_CF_7B http://chiliPC:46851/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,753: -SUB [/setThreshold] /sensor_node_00_06_66_D2_CF_7B http://chiliPC:46851/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,754: -SUB [/tf] /sensor_node_00_06_66_D2_CF_7B http://chiliPC:46851/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,756: -SUB [/tf_static] /sensor_node_00_06_66_D2_CF_7B http://chiliPC:46851/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,758: -SERVICE [/sensor_node_00_06_66_D2_CF_7B/get_loggers] /sensor_node_00_06_66_D2_CF_7B rosrpc://chiliPC:38539
+[rosmaster.master][INFO] 2019-03-18 15:04:08,759: -SERVICE [/sensor_node_00_06_66_D2_CF_7B/set_logger_level] /sensor_node_00_06_66_D2_CF_7B rosrpc://chiliPC:38539
+[rosmaster.master][INFO] 2019-03-18 15:04:08,781: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/']
+[rosmaster.master][INFO] 2019-03-18 15:04:08,782: -PUB [/rosout] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,784: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:45305/', 'http://chiliPC:37351/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,784: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:37351/']
+[rosmaster.master][INFO] 2019-03-18 15:04:08,785: -PUB [/cellulo_node_00_06_66_D2_CF_7B/touchKey] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,786: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:40995/', 'http://chiliPC:34817/', 'http://chiliPC:37351/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,788: -PUB [/cellulo_node_00_06_66_D2_CF_7B/longTouchKey] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,789: -PUB [/cellulo_node_00_06_66_D2_CF_7B/kidnapped] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,790: -PUB [/cellulo_node_00_06_66_D2_CF_7B/velocity] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,792: -PUB [/cellulo_node_00_06_66_D2_CF_7B/connectionStatus] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,794: -PUB [/cellulo_node_00_06_66_D2_CF_7B/localAdapterAdress] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,795: -PUB [/cellulo_node_00_06_66_D2_CF_7B/autoConnect] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,795: -PUB [/cellulo_node_00_06_66_D2_CF_7B/batteryState] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,796: -PUB [/cellulo_node_00_06_66_D2_CF_7B/gesture] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,797: -PUB [/cellulo_node_00_06_66_D2_CF_7B/lastTimestamp] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,798: -PUB [/cellulo_node_00_06_66_D2_CF_7B/framerate] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,799: -PUB [/cellulo_node_00_06_66_D2_CF_7B/cameraImageProgress] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,800: -PUB [/cellulo_node_00_06_66_D2_CF_7B/poseVelControlEnable] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,801: -PUB [/cellulo_node_00_06_66_D2_CF_7B/poseVelControlPeriod] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,802: -PUB [/cellulo_node_00_06_66_D2_CF_7B/visualization_marker_robot] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,803: -PUB [/cellulo_node_00_06_66_D2_CF_7B/visualization_marker_traj] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,804: -PUB [/tf] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,805: -SUB [/cellulo_node_00_06_66_D2_CF_7B/setVisualEffect] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,806: -SUB [/cellulo_node_00_06_66_D2_CF_7B/setLEDResponseMode] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,807: -SUB [/cellulo_node_00_06_66_D2_CF_7B/setGoalVelocity] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,809: -SUB [/cellulo_node_00_06_66_D2_CF_7B/reset] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,810: -SUB [/cellulo_node_00_06_66_D2_CF_7B/clearTracking] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,811: -SUB [/cellulo_node_00_06_66_D2_CF_7B/shutdown] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,812: -SUB [/cellulo_node_00_06_66_D2_CF_7B/clearHapticFeedback] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,813: -SUB [/cellulo_node_00_06_66_D2_CF_7B/vibrateOnMotion] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,814: -SUB [/cellulo_node_00_06_66_D2_CF_7B/simpleVibrate] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,816: -SUB [/cellulo_node_00_06_66_D2_CF_7B/setGestureEnabled] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,817: -SUB [/cellulo_node_00_06_66_D2_CF_7B/setCasualBackdriveAssistEnabled] /cellulo_node_00_06_66_D2_CF_7B http://chiliPC:45305/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,817: -SERVICE [/cellulo_node_00_06_66_D2_CF_7B/get_loggers] /cellulo_node_00_06_66_D2_CF_7B rosrpc://chiliPC:56983
+[rosmaster.master][INFO] 2019-03-18 15:04:08,818: -SERVICE [/cellulo_node_00_06_66_D2_CF_7B/set_logger_level] /cellulo_node_00_06_66_D2_CF_7B rosrpc://chiliPC:56983
+[rosmaster.master][INFO] 2019-03-18 15:04:08,819: -SERVICE [/cellulo_node_00_06_66_D2_CF_7B/get_state] /cellulo_node_00_06_66_D2_CF_7B rosrpc://chiliPC:56983
+[rosmaster.master][INFO] 2019-03-18 15:04:08,845: -PUB [/rosout] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,847: -PUB [/cellulo_node_00_06_66_E7_8A_D6/touchKey] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,848: publisherUpdate[/tf] -> http://chiliPC:37351/ ['http://chiliPC:34817/', 'http://chiliPC:40995/']
+[rosmaster.master][INFO] 2019-03-18 15:04:08,849: -PUB [/rosout] /sensor_node_00_06_66_E7_8A_D6 http://chiliPC:37351/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,850: -PUB [/cellulo_node_00_06_66_E7_8A_D6/longTouchKey] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,852: -PUB [/sensor_node_00_06_66_E7_8A_D6/detectedRobots] /sensor_node_00_06_66_E7_8A_D6 http://chiliPC:37351/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,853: -PUB [/cellulo_node_00_06_66_E7_8A_D6/kidnapped] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,854: -PUB [/sensor_node_00_06_66_E7_8A_D6/detectedObstacles] /sensor_node_00_06_66_E7_8A_D6 http://chiliPC:37351/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,855: -PUB [/cellulo_node_00_06_66_E7_8A_D6/velocity] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,856: -SUB [/setThreshold] /sensor_node_00_06_66_E7_8A_D6 http://chiliPC:37351/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,857: publisherUpdate[/tf] -> http://chiliPC:37351/ ['http://chiliPC:34817/', 'http://chiliPC:40995/']: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2019-03-18 15:04:08,858: -PUB [/cellulo_node_00_06_66_E7_8A_D6/connectionStatus] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,860: -SUB [/tf] /sensor_node_00_06_66_E7_8A_D6 http://chiliPC:37351/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,861: -PUB [/cellulo_node_00_06_66_E7_8A_D6/localAdapterAdress] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,862: -SUB [/tf_static] /sensor_node_00_06_66_E7_8A_D6 http://chiliPC:37351/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,863: -PUB [/cellulo_node_00_06_66_E7_8A_D6/autoConnect] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,864: -SERVICE [/sensor_node_00_06_66_E7_8A_D6/get_loggers] /sensor_node_00_06_66_E7_8A_D6 rosrpc://chiliPC:52491
+[rosmaster.master][INFO] 2019-03-18 15:04:08,865: -PUB [/cellulo_node_00_06_66_E7_8A_D6/batteryState] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,867: -SERVICE [/sensor_node_00_06_66_E7_8A_D6/set_logger_level] /sensor_node_00_06_66_E7_8A_D6 rosrpc://chiliPC:52491
+[rosmaster.master][INFO] 2019-03-18 15:04:08,868: -PUB [/cellulo_node_00_06_66_E7_8A_D6/gesture] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,869: -PUB [/cellulo_node_00_06_66_E7_8A_D6/lastTimestamp] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,870: -PUB [/cellulo_node_00_06_66_E7_8A_D6/framerate] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,871: -PUB [/cellulo_node_00_06_66_E7_8A_D6/cameraImageProgress] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,872: -PUB [/cellulo_node_00_06_66_E7_8A_D6/poseVelControlEnable] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,874: -PUB [/cellulo_node_00_06_66_E7_8A_D6/poseVelControlPeriod] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,875: -PUB [/cellulo_node_00_06_66_E7_8A_D6/visualization_marker_robot] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,876: -PUB [/cellulo_node_00_06_66_E7_8A_D6/visualization_marker_traj] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,878: -PUB [/tf] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,879: -PUB [/rosout] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,880: -SUB [/cellulo_node_00_06_66_E7_8A_D6/setVisualEffect] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,881: -PUB [/cellulo_node_00_06_66_E7_8E_BD/touchKey] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,882: -SUB [/cellulo_node_00_06_66_E7_8A_D6/setLEDResponseMode] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,883: -PUB [/cellulo_node_00_06_66_E7_8E_BD/longTouchKey] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,884: -SUB [/cellulo_node_00_06_66_E7_8A_D6/setGoalVelocity] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,886: -PUB [/cellulo_node_00_06_66_E7_8E_BD/kidnapped] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,887: -SUB [/cellulo_node_00_06_66_E7_8A_D6/reset] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,888: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:34817/', 'http://chiliPC:37351/']
+[rosmaster.master][INFO] 2019-03-18 15:04:08,888: -PUB [/cellulo_node_00_06_66_E7_8E_BD/velocity] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,889: -SUB [/cellulo_node_00_06_66_E7_8A_D6/clearTracking] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,890: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:34817/', 'http://chiliPC:37351/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,890: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:34817/']
+[rosmaster.master][INFO] 2019-03-18 15:04:08,891: -PUB [/cellulo_node_00_06_66_E7_8E_BD/connectionStatus] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,892: publisherUpdate[/rosout] -> http://chiliPC:43117/ ['http://chiliPC:34817/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,893: -SUB [/cellulo_node_00_06_66_E7_8A_D6/shutdown] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,893: publisherUpdate[/rosout] -> http://chiliPC:43117/ []
+[rosmaster.master][INFO] 2019-03-18 15:04:08,894: -PUB [/cellulo_node_00_06_66_E7_8E_BD/localAdapterAdress] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,895: publisherUpdate[/rosout] -> http://chiliPC:43117/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-03-18 15:04:08,895: -SUB [/cellulo_node_00_06_66_E7_8A_D6/clearHapticFeedback] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,896: -PUB [/cellulo_node_00_06_66_E7_8E_BD/autoConnect] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,897: -SUB [/cellulo_node_00_06_66_E7_8A_D6/vibrateOnMotion] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,897: -PUB [/cellulo_node_00_06_66_E7_8E_BD/batteryState] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,898: -SUB [/cellulo_node_00_06_66_E7_8A_D6/simpleVibrate] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,899: -PUB [/cellulo_node_00_06_66_E7_8E_BD/gesture] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,900: -SUB [/cellulo_node_00_06_66_E7_8A_D6/setGestureEnabled] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,901: -PUB [/cellulo_node_00_06_66_E7_8E_BD/lastTimestamp] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.threadpool][ERROR] 2019-03-18 15:04:08,901: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2019-03-18 15:04:08,902: -SUB [/cellulo_node_00_06_66_E7_8A_D6/setCasualBackdriveAssistEnabled] /cellulo_node_00_06_66_E7_8A_D6 http://chiliPC:40995/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,903: -PUB [/cellulo_node_00_06_66_E7_8E_BD/framerate] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,903: -SERVICE [/cellulo_node_00_06_66_E7_8A_D6/get_loggers] /cellulo_node_00_06_66_E7_8A_D6 rosrpc://chiliPC:52535
+[rosmaster.master][INFO] 2019-03-18 15:04:08,904: -PUB [/cellulo_node_00_06_66_E7_8E_BD/cameraImageProgress] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,905: -SERVICE [/cellulo_node_00_06_66_E7_8A_D6/set_logger_level] /cellulo_node_00_06_66_E7_8A_D6 rosrpc://chiliPC:52535
+[rosmaster.master][INFO] 2019-03-18 15:04:08,905: -PUB [/cellulo_node_00_06_66_E7_8E_BD/poseVelControlEnable] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,906: -SERVICE [/cellulo_node_00_06_66_E7_8A_D6/get_state] /cellulo_node_00_06_66_E7_8A_D6 rosrpc://chiliPC:52535
+[rosmaster.master][INFO] 2019-03-18 15:04:08,907: -PUB [/cellulo_node_00_06_66_E7_8E_BD/poseVelControlPeriod] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,908: -PUB [/cellulo_node_00_06_66_E7_8E_BD/visualization_marker_robot] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,908: -PUB [/cellulo_node_00_06_66_E7_8E_BD/visualization_marker_traj] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,909: -PUB [/tf] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,909: -SUB [/cellulo_node_00_06_66_E7_8E_BD/setVisualEffect] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,910: -SUB [/cellulo_node_00_06_66_E7_8E_BD/setLEDResponseMode] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,911: -SUB [/cellulo_node_00_06_66_E7_8E_BD/setGoalVelocity] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,912: -SUB [/cellulo_node_00_06_66_E7_8E_BD/reset] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,914: -SUB [/cellulo_node_00_06_66_E7_8E_BD/clearTracking] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,915: -SUB [/cellulo_node_00_06_66_E7_8E_BD/shutdown] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,916: -SUB [/cellulo_node_00_06_66_E7_8E_BD/clearHapticFeedback] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,917: -SUB [/cellulo_node_00_06_66_E7_8E_BD/vibrateOnMotion] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,918: -SUB [/cellulo_node_00_06_66_E7_8E_BD/simpleVibrate] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,919: -SUB [/cellulo_node_00_06_66_E7_8E_BD/setGestureEnabled] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,920: -SUB [/cellulo_node_00_06_66_E7_8E_BD/setCasualBackdriveAssistEnabled] /cellulo_node_00_06_66_E7_8E_BD http://chiliPC:34817/
+[rosmaster.master][INFO] 2019-03-18 15:04:08,921: -SERVICE [/cellulo_node_00_06_66_E7_8E_BD/get_loggers] /cellulo_node_00_06_66_E7_8E_BD rosrpc://chiliPC:48781
+[rosmaster.master][INFO] 2019-03-18 15:04:08,923: -SERVICE [/cellulo_node_00_06_66_E7_8E_BD/set_logger_level] /cellulo_node_00_06_66_E7_8E_BD rosrpc://chiliPC:48781
+[rosmaster.master][INFO] 2019-03-18 15:04:08,924: -SERVICE [/cellulo_node_00_06_66_E7_8E_BD/get_state] /cellulo_node_00_06_66_E7_8E_BD rosrpc://chiliPC:48781
+[rosmaster.master][INFO] 2019-03-18 15:04:09,296: -PUB [/rosout_agg] /rosout http://chiliPC:43117/
+[rosmaster.master][INFO] 2019-03-18 15:04:09,297: -SUB [/rosout] /rosout http://chiliPC:43117/
+[rosmaster.master][INFO] 2019-03-18 15:04:09,298: -SERVICE [/rosout/get_loggers] /rosout rosrpc://chiliPC:60343
+[rosmaster.master][INFO] 2019-03-18 15:04:09,299: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://chiliPC:60343
+[rosmaster.main][INFO] 2019-03-18 15:04:09,407: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2019-03-18 15:04:09,408: stopping master...
+[rospy.core][INFO] 2019-03-18 15:04:09,408: signal_shutdown [atexit]

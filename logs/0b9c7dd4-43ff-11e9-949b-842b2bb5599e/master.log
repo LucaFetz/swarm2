@@ -4608,3 +4608,10 @@ Fault: <Fault -1: 'publisherUpdate: unknown method name'>
 [rosmaster.master][INFO] 2019-03-11 16:33:05,384: -SERVICE [/cellulo_node_00_06_66_E7_8A_D6/get_loggers] /cellulo_node_00_06_66_E7_8A_D6 rosrpc://chiliPC:51975
 [rosmaster.master][INFO] 2019-03-11 16:33:05,386: -SERVICE [/cellulo_node_00_06_66_E7_8A_D6/set_logger_level] /cellulo_node_00_06_66_E7_8A_D6 rosrpc://chiliPC:51975
 [rosmaster.master][INFO] 2019-03-11 16:33:05,387: -SERVICE [/cellulo_node_00_06_66_E7_8A_D6/get_state] /cellulo_node_00_06_66_E7_8A_D6 rosrpc://chiliPC:51975
+[rosmaster.master][INFO] 2019-03-11 17:09:39,932: -PUB [/rosout_agg] /rosout http://chiliPC:38851/
+[rosmaster.master][INFO] 2019-03-11 17:09:39,933: -SUB [/rosout] /rosout http://chiliPC:38851/
+[rosmaster.master][INFO] 2019-03-11 17:09:39,933: -SERVICE [/rosout/get_loggers] /rosout rosrpc://chiliPC:50439
+[rosmaster.master][INFO] 2019-03-11 17:09:39,934: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://chiliPC:50439
+[rosmaster.main][INFO] 2019-03-11 17:09:40,075: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2019-03-11 17:09:40,122: stopping master...
+[rospy.core][INFO] 2019-03-11 17:09:40,205: signal_shutdown [atexit]

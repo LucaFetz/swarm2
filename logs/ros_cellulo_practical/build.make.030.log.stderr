@@ -1,0 +1,22 @@
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:[m[K In member function ‘[01m[Kvoid RosCelluloAggregation::naive_calculate_new_velocities()[m[K’:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:127:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kx[m[K’
+         double distance= sqrt(distances_to_robots.x*distances_to_robots.x +distances_to_robots.y*distances_to_robots.y);
+[01;32m[K                                                   ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:127:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kx[m[K’
+         double distance= sqrt(distances_to_robots.x*distances_to_robots.x +distances_to_robots.y*distances_to_robots.y);
+[01;32m[K                                                                         ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:127:96:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ky[m[K’
+         double distance= sqrt(distances_to_robots.x*distances_to_robots.x +distances_to_robots.y*distances_to_robots.y);
+[01;32m[K                                                                                                ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:127:118:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ky[m[K’
+         double distance= sqrt(distances_to_robots.x*distances_to_robots.x +distances_to_robots.y*distances_to_robots.y);
+[01;32m[K                                                                                                                      ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:128:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistances[m[K’ was not declared in this scope
+         if(distances > 50)
+[01;32m[K            ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:127:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdistance[m[K’ [-Wunused-variable]
+         double distance= sqrt(distances_to_robots.x*distances_to_robots.x +distances_to_robots.y*distances_to_robots.y);
+[01;32m[K                ^[m[K
+make[2]: *** [CMakeFiles/ros_cellulo_aggregation.dir/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp.o] Error 1
+make[1]: *** [CMakeFiles/ros_cellulo_aggregation.dir/all] Error 2
+make: *** [all] Error 2

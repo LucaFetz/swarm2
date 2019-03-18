@@ -1,0 +1,9 @@
+[  8%] Built target ros_cellulo_coverage_core
+[ 16%] Built target ros_cellulo_aggregation_core
+[ 33%] Built target ros_cellulo_interaction
+[35m[1mScanning dependencies of target ros_cellulo_coverage[0m
+[ 50%] Built target ros_cellulo_leader
+[ 75%] Built target ros_cellulo_aggregation
+[ 83%] [32mBuilding CXX object CMakeFiles/ros_cellulo_coverage.dir/src/ros_cellulo_coverage/RosCelluloCoverage.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable /home/tprobotics/Documents/PROJECTS/catkin_ws/devel/.private/ros_cellulo_practical/lib/ros_cellulo_practical/ros_cellulo_coverage[0m
+[100%] Built target ros_cellulo_coverage

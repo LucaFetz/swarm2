@@ -1,0 +1,37 @@
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/RosCelluloCoverage.cpp:[m[K In member function ‘[01m[Kvoid RosCelluloCoverage::calculate_new_velocities()[m[K’:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/RosCelluloCoverage.cpp:115:19:[m[K [01;31m[Kerror: [m[K‘[01m[Knb_of_robots[m[K’ was not declared in this scope
+         for(i=0;i<nb_of_robots; i++)
+[01;32m[K                   ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/RosCelluloCoverage.cpp:126:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksumrx[m[K’ was not declared in this scope
+                 sumrx+=-1/(r*r)*distances_to_robots[j].x/abs(distances_to_robots[j].x);
+[01;32m[K                 ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/RosCelluloCoverage.cpp:127:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksumry[m[K’ was not declared in this scope
+                 sumry+=-1/(r*r)*distances_to_robots[j].y/abs(distances_to_robots[j].y);
+[01;32m[K                 ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/RosCelluloCoverage.cpp:130:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ksumrx[m[K’ was not declared in this scope
+             Fo.x=-ko*sumrx;
+[01;32m[K                      ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/RosCelluloCoverage.cpp:131:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ksumry[m[K’ was not declared in this scope
+             Fo.y=-ko*sumry;
+[01;32m[K                      ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/RosCelluloCoverage.cpp:136:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksumox[m[K’ was not declared in this scope
+                 sumox+=-1/(r*r)*distances_to_obstacles[j].x/abs(distances_to_obstacles[j].x);
+[01;32m[K                 ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/RosCelluloCoverage.cpp:137:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ksumoy[m[K’ was not declared in this scope
+                 sumoy+=-1/(r*r)*distances_to_obstacles[j].y/abs(distances_to_obstacles[j].y);
+[01;32m[K                 ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/RosCelluloCoverage.cpp:140:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ksumox[m[K’ was not declared in this scope
+             Fn.x=-ko*sumox;
+[01;32m[K                      ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/RosCelluloCoverage.cpp:141:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ksumoy[m[K’ was not declared in this scope
+             Fn.y=-ko*sumoy;
+[01;32m[K                      ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/RosCelluloCoverage.cpp:167:13:[m[K [01;31m[Kerror: [m[K‘[01m[KVelocityPublisher[m[K’ was not declared in this scope
+             VelocityPublisher.publish(vel);
+[01;32m[K             ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_coverage/RosCelluloCoverage.cpp:122:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksum[m[K’ [-Wunused-variable]
+             double sum=0;
+[01;32m[K                    ^[m[K
+make[2]: *** [CMakeFiles/ros_cellulo_coverage.dir/src/ros_cellulo_coverage/RosCelluloCoverage.cpp.o] Error 1
+make[1]: *** [CMakeFiles/ros_cellulo_coverage.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,511 @@
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:[m[K In function ‘[01m[Kvoid randomWalk()[m[K’:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:88:5:[m[K [01;31m[Kerror: [m[K‘[01m[KthetaDis[m[K’ was not declared in this scope
+     thetaDis=30;
+[01;32m[K     ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:93:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle[m[K’ was not declared in this scope
+     angle=possibleAngle[j];
+[01;32m[K     ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:93:5:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/kinetic/include/tf2/transform_storage.h:36:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf2/buffer_core.h:35[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf2_ros/buffer_interface.h:35[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf2_ros/buffer.h:35[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf2_ros/transform_listener.h:40[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:5[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/tf2/LinearMath/Quaternion.h:405:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktf2::angle[m[K’
+ angle(const Quaternion& q1, const Quaternion& q2) 
+[01;32m[K ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:100:5:[m[K [01;31m[Kerror: [m[K‘[01m[KVelocityPublisher[m[K’ was not declared in this scope
+     VelocityPublisher.publish(vel);
+[01;32m[K     ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:[m[K In function ‘[01m[Kvoid wait()[m[K’:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:111:5:[m[K [01;31m[Kerror: [m[K‘[01m[KVelocityPublisher[m[K’ was not declared in this scope
+     VelocityPublisher.publish(vel);
+[01;32m[K     ^[m[K
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:[m[K In member function ‘[01m[Kvoid RosCelluloAggregation::naive_calculate_new_velocities()[m[K’:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:32:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator>[m[K’ (operand types are ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ and ‘[01m[Kint[m[K’)
+         if(distances_to_robots > 50)
+[01;32m[K                                ^[m[K
+In file included from [01m[K/usr/include/c++/5/deque:64:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/callback_queue.h:63[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf2_ros/transform_listener.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:5[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_deque.h:2253:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Alloc> bool std::operator>(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)
+     operator>(const deque<_Tp, _Alloc>& __x,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_deque.h:2253:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::deque<_Tp, _Alloc>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/deque:64:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/callback_queue.h:63[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf2_ros/transform_listener.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:5[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_deque.h:313:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> bool std::operator>(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+     operator>(const _Deque_iterator<_Tp, _RefL, _PtrL>& __x,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_deque.h:313:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::_Deque_iterator<_Tp, _Ref, _Ptr>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/deque:64:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/callback_queue.h:63[m[K,
+                 from [01m[K/opt/ros/kinetic/include/tf2_ros/transform_listener.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:5[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_deque.h:306:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Ref, class _Ptr> bool std::operator>(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+     operator>(const _Deque_iterator<_Tp, _Ref, _Ptr>& __x,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_deque.h:306:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::_Deque_iterator<_Tp, _Ref, _Ptr>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/list:63:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/forwards.h:35[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_list.h:1849:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Alloc> bool std::operator>(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)
+     operator>(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_list.h:1849:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::list<_Tp, _Alloc>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/set:62:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/forwards.h:34[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_multiset.h:857:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Key, class _Compare, class _Alloc> bool std::operator>(const std::multiset<_Key, _Compare, _Alloc>&, const std::multiset<_Key, _Compare, _Alloc>&)
+     operator>(const multiset<_Key,_Compare,_Alloc>& __x,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_multiset.h:857:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::multiset<_Key, _Compare, _Alloc>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/set:61:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/forwards.h:34[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_set.h:874:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Key, class _Compare, class _Alloc> bool std::operator>(const std::set<_Key, _Compare, _Alloc>&, const std::set<_Key, _Compare, _Alloc>&)
+     operator>(const set<_Key, _Compare, _Alloc>& __x,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_set.h:874:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::set<_Key, _Compare, _Alloc>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/map:62:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/console.h:42[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_multimap.h:1010:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator>(const std::multimap<_Key, _Tp, _Compare, _Alloc>&, const std::multimap<_Key, _Tp, _Compare, _Alloc>&)
+     operator>(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_multimap.h:1010:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::multimap<_Key, _Tp, _Compare, _Alloc>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/map:61:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/console.h:42[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_map.h:1109:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator>(const std::map<_Key, _Tp, _Compare, _Alloc>&, const std::map<_Key, _Tp, _Compare, _Alloc>&)
+     operator>(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_map.h:1109:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::map<_Key, _Tp, _Compare, _Alloc>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/map:60:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/console.h:42[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_tree.h:1312:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Key, class _Val, class _KeyOfValue, class _Compare, class _Alloc> bool std::operator>(const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&, const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&)
+     operator>(const _Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>& __x,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_tree.h:1312:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:82:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/shared_ptr.h:414:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> bool std::operator>(std::nullptr_t, const std::shared_ptr<_Tp1>&)
+     operator>(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/shared_ptr.h:414:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:12:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((RosCelluloAggregation*)this)->RosCelluloAggregation::distances_to_robots[m[K’ (type ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’) to type ‘[01m[Kstd::nullptr_t[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K            ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:82:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/shared_ptr.h:409:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> bool std::operator>(const std::shared_ptr<_Tp1>&, std::nullptr_t)
+     operator>(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/shared_ptr.h:409:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::shared_ptr<_Tp1>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:82:0[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/shared_ptr.h:403:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp1, class _Tp2> bool std::operator>(const std::shared_ptr<_Tp1>&, const std::shared_ptr<_Tp2>&)
+     operator>(const shared_ptr<_Tp1>& __a,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/shared_ptr.h:403:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::shared_ptr<_Tp1>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/shared_ptr.h:52:0[m[K,
+                 from [01m[K/usr/include/c++/5/memory:82[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/shared_ptr_base.h:1261:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator>(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)
+     operator>(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/shared_ptr_base.h:1261:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:12:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((RosCelluloAggregation*)this)->RosCelluloAggregation::distances_to_robots[m[K’ (type ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’) to type ‘[01m[Kstd::nullptr_t[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K            ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/shared_ptr.h:52:0[m[K,
+                 from [01m[K/usr/include/c++/5/memory:82[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/shared_ptr_base.h:1256:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator>(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)
+     operator>(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/shared_ptr_base.h:1256:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/shared_ptr.h:52:0[m[K,
+                 from [01m[K/usr/include/c++/5/memory:82[m[K,
+                 from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/format.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/shared_ptr_base.h:1250:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator>(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)
+     operator>(const __shared_ptr<_Tp1, _Lp>& __a,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/shared_ptr_base.h:1250:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp1, _Lp>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Dp> bool std::operator>(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)
+     operator>(nullptr_t, const unique_ptr<_Tp, _Dp>& __x)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:12:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((RosCelluloAggregation*)this)->RosCelluloAggregation::distances_to_robots[m[K’ (type ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’) to type ‘[01m[Kstd::nullptr_t[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K            ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:708:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Dp> bool std::operator>(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)
+     operator>(const unique_ptr<_Tp, _Dp>& __x, nullptr_t)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:708:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:702:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator>(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)
+     operator>(const unique_ptr<_Tp, _Dp>& __x,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:702:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/unique_ptr.h:37:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/locale_conv.h:41[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/tuple:950:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class ... _TElements, class ... _UElements> constexpr bool std::operator>(const std::tuple<_Elements ...>&, const std::tuple<_Elements ...>&)
+     operator>(const tuple<_TElements...>& __t,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/tuple:950:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::tuple<_Elements ...>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/tuple:39:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/5/bits/locale_conv.h:41[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/array:258:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, long unsigned int _Nm> bool std::operator>(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)
+     operator>(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/array:258:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/vector:64:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/random.h:34[m[K,
+                 from [01m[K/usr/include/c++/5/random:49[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_vector.h:1541:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Alloc> bool std::operator>(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+     operator>(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_vector.h:1541:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’ and ‘[01m[Kint[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/string:52:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/platform.h:55[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.h:5146:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator>(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator>(const _CharT* __lhs,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.h:5146:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/string:52:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/platform.h:55[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.h:5134:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator>(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator>(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.h:5134:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/string:52:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/platform.h:55[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.h:5121:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator>(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator>(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.h:5121:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/5/string:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/platform.h:55[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_iterator.h:1126:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Iterator> bool std::operator>(const std::move_iterator<_Iterator>&, const std::move_iterator<_Iterator>&)
+     operator>(const move_iterator<_Iterator>& __x,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_iterator.h:1126:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_Iterator>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/5/string:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/platform.h:55[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_iterator.h:1120:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IteratorL, class _IteratorR> bool std::operator>(const std::move_iterator<_Iterator>&, const std::move_iterator<_IteratorR>&)
+     operator>(const move_iterator<_IteratorL>& __x,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_iterator.h:1120:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_Iterator>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/5/string:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/platform.h:55[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_iterator.h:367:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IteratorL, class _IteratorR> bool std::operator>(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator>(const reverse_iterator<_IteratorL>& __x,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_iterator.h:367:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/5/string:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/platform.h:55[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_iterator.h:310:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Iterator> bool std::operator>(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator>(const reverse_iterator<_Iterator>& __x,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_iterator.h:310:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/stl_algobase.h:64:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/5/string:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/platform.h:55[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_pair.h:233:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _T1, class _T2> constexpr bool std::operator>(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator>(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_pair.h:233:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/5/string:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/platform.h:55[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_iterator.h:877:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Iterator, class _Container> bool __gnu_cxx::operator>(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator>(const __normal_iterator<_Iterator, _Container>& __lhs,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_iterator.h:877:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/5/string:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/platform.h:55[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/include/ros_cellulo_aggregation/RosCelluloAggregation.hpp:2[m[K,
+                 from [01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_iterator.h:870:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator>(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+     operator>(const __normal_iterator<_IteratorL, _Container>& __lhs,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_iterator.h:870:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tprobotics/Documents/PROJECTS/catkin_ws/src/cellulo_swarm_practical_base/ros_cellulo_practical/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp:122:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<geometry_msgs::Vector3_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_IteratorL, _Container>[m[K’
+         if(distances_to_robots > 50)
+[01;32m[K                                  ^[m[K
+make[2]: *** [CMakeFiles/ros_cellulo_aggregation.dir/src/ros_cellulo_aggregation/RosCelluloAggregation.cpp.o] Error 1
+make[1]: *** [CMakeFiles/ros_cellulo_aggregation.dir/all] Error 2
+make: *** [all] Error 2
